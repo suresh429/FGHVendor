@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.razorpay:checkout:1.6.15@aar">
+    <CLASSES>
+      <root url="file://D:/Downloads/gradle-6.5-bin/caches/transforms-2/files-2.1/9069e2cd008acb19b334571b16cf4665/jetified-checkout-1.6.15/res" />
+      <root url="file://D:/Downloads/gradle-6.5-bin/caches/transforms-2/files-2.1/9069e2cd008acb19b334571b16cf4665/jetified-checkout-1.6.15/AndroidManifest.xml" />
+      <root url="jar://D:/Downloads/gradle-6.5-bin/caches/transforms-2/files-2.1/9069e2cd008acb19b334571b16cf4665/jetified-checkout-1.6.15/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Downloads/gradle-6.5-bin/caches/modules-2/files-2.1/com.razorpay/checkout/1.6.15/772641c8514e72dd0ca07f44f96e5eabc92911e4/checkout-1.6.15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Downloads/gradle-6.5-bin/caches/modules-2/files-2.1/com.razorpay/checkout/1.6.15/113e9b8bb5cafddcad3a08914d6c41925a670c9a/checkout-1.6.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

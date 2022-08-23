@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ambitious.fghvendor"
+    android:targetSandboxVersion="2"
+    android:versionCode="17"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.facebook.orca" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.QrCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.PaidSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.PaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MarketPriceHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BankDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MarketPricesProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MarketPricesSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MarketPricesLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MarketPricesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DeliveryBoySignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DeloveryBoyLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VehicleSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VehicleHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VehicleLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VehicleProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.FoodBankSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.FoodBankHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.FoodBankLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.FoodBankProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.FoodBankActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SanitizationProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SanitizationHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SanitizationSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SanitizationLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SanitizationServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.OxygenBankSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.OxygenBankHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.OxygenBankLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.OxygenBankProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.OxygenBankListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VideoViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.CovidWinnersActivity"
+            android:exported="true" >
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- https://fghdoctors.com/fitnessvideo/ -->
+                <data
+                    android:host="fghdoctors.com"
+                    android:pathPrefix="/fitnessvideo"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.CovidServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AddNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.NotificationDetailActivity"
+            android:exported="true" >
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- http://fghdoctors.com/liveupdates/ -->
+                <data
+                    android:host="fghdoctors.com"
+                    android:pathPrefix="/liveupdates"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.WithdrawalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MyWalletActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.ReferActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.NewAppointmentCategoryListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.ViewReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AppointmentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.ReportListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.ReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabsProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabsSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabsHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LabListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RepresentativeBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VatinaryDoctorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPDoctorHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VaterinaryUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VaterinarySignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VaterinaryLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPDoctorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPUpateActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.RMPDoctorListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.PatientDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AddPatientActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.PatientListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MedicalHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodBankHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodDonorHomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MedicalShopSignupActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MedicalShopLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodBankSignupActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DonorSignupActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodBankLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DonorLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceSignupActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DoctorProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.DoctorListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AppointmentCategoryListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MedicalShopProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.MedicalShopListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodDonorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodBankProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.BloodListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.AmbulanceListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ambitious.fghvendor.Activities.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_RQHd0NAHrcy1R9" />
+
+        <service
+            android:name="com.ambitious.fghvendor.Services.MyFirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ambitious.fghvendor.Services.MyFirebaseInstanceIDService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.ambitious.fghvendor.Services.BroadcastNotiReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ambitious.fghvendor.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.plugin.googlepay_all"
+            android:value="com.razorpay.RzpGpayMerged" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.ambitious.fghvendor.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

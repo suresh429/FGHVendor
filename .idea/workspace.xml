@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="token" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac5e0e38-c541-483a-a9fe-17fd02549501" name="Default Changelist" comment="intial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/FGHVendorApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/FGHVendorApp.app.androidTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/FGHVendorApp.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/FGHVendorApp.app.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/FGHVendorApp.app.unitTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FGHVendor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/FGHVendor.app.androidTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/FGHVendor.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/FGHVendor.app.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/FGHVendor.app.unitTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZF6524DT2B]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="T:\Ambitious\My Android Work2020\MyData\JKS\FGH\fgh.jks" />
+    <option name="KEY_ALIAS" value="fgh" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1cOIuxFdje0RQ3CEV39OIqDvzWz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="FGHDoctor.app" />
+    <property name="BundleExportedModule" value="FGHDoctor.app" />
+    <property name="DEBUGGABLE_DEVICE" value="motorola-moto_g_7__plus-ZF6524DT2B" />
+    <property name="DEBUGGABLE_PROCESS" value="com.ambitious.fghdoctor" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="bb10c23e" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-01T11:22:07.174Z" />
+    <property name="ExportApk.ApkPath" value="T:\Ambitious\My Android Work2020\NewWork\Projects\FGHDoctor\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/shubham shrimal/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/sures/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewD:/Downloads/gradle-6.5-bin/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewD:/Downloads/gradle-6.5-bin/caches/modules-2/files-2.1/nl.psdcompany/duo-navigation-drawer/3.0.0/c6710d95ddede3d2767c6f434f75dbd81cdc2814/duo-navigation-drawer-3.0.0-sources.jar!/nl/psdcompany/duonavigationdrawer/views/DuoMenuView.java_SELECTED" value="DuoMenuView" />
+    <property name="android-custom-viewD:/Downloads/gradle-6.5-bin/caches/modules-2/files-2.1/nl.psdcompany/duo-navigation-drawer/3.0.0/c6710d95ddede3d2767c6f434f75dbd81cdc2814/duo-navigation-drawer-3.0.0-sources.jar!/nl/psdcompany/duonavigationdrawer/views/DuoOptionView.java_SELECTED" value="DuoOptionView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/shubham shrimal/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recommended.upgrade.last.time.stamp" value="1640787429082" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.847224458">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-1216818783">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.834433368">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.544268817">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1109611262">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-266904222">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-677471961">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-174419323">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1082969643">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-1629996251">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-1003042430">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1493015739">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.170116394">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ambitious.fghdoctor.Adapters" />
+      <recent name="com.ambitious.fghdoctor.Activities" />
+      <recent name="com.ambitious.fghdoctor.Utils" />
+      <recent name="com.ambitious.fghdoctor.Interface" />
+    </key>
+    <key name="android.template.2029281550">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android projects\FGHDoctor\FGHDoctor\app\src\main\res\raw" />
+      <recent name="E:\Android projects\FGHDoctor\FGHDoctor\app\src\main\res\drawable" />
+      <recent name="T:\Ambitious\My Android Work2020\NewWork\Projects\FGHDoctor\app\src\main\res\drawable" />
+      <recent name="T:\Ambitious\My Android Work2020\NewWork\Projects\FGHDoctor\app\src\main\java\com\ambitious\fghdoctor\Utils" />
+      <recent name="T:\Ambitious\My Android Work2020\NewWork\Projects\FGHDoctor\app\src\main\res" />
+    </key>
+    <key name="android.template.-1405152966">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1087396044">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-557885573">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-837941579">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-919377731">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1955264654">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-816158920">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.1541715550">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-312159552">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+    <key name="android.template.-42365452">
+      <recent name="com.ambitious.fghdoctor.Activities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="FGHVendorApp.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5e0e38-c541-483a-a9fe-17fd02549501" name="Default Changelist" comment="" />
+      <created>1590393438918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590393438918</updated>
+    </task>
+    <task id="LOCAL-00001" summary="intial commit">
+      <created>1659936596091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659936596091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="intial commit">
+      <created>1661233701406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661233701407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="intial commit">
+      <created>1661234086984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661234086985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="intial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Fragments/MyAppointmentFragment.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>984</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>861</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>863</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>871</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>540</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>545</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>633</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>718</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>726</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodDonorHomeActivity.java</url>
+          <line>282</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/BloodListAdpter.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankSignupActivity.java</url>
+          <line>553</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankSignupActivity.java</url>
+          <line>663</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankSignupActivity.java</url>
+          <line>424</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankSignupActivity.java</url>
+          <line>435</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankSignupActivity.java</url>
+          <line>475</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankHomeActivity.java</url>
+          <line>673</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankHomeActivity.java</url>
+          <line>638</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankHomeActivity.java</url>
+          <line>643</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankHomeActivity.java</url>
+          <line>646</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/BloodBankHomeActivity.java</url>
+          <line>656</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/BloodGroupAdapter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/AppointmentCategoryAdapter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/AppointmentCategoryAdapter.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorListActivity.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/AppointmentNumberAdapter.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>888</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>891</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>919</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>927</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>566</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>539</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1266</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1274</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1284</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1065</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1121</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1102</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1347</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>312</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>315</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>341</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>361</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>368</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>374</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RMPSignupActivity.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AmbulanceHomeActivity.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AddPatientActivity.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AddPatientActivity.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RepresentativeBookingActivity.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RepresentativeBookingActivity.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>693</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>681</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>788</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WebviewActivity.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WebviewActivity.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WebviewActivity.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WebviewActivity.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Fragments/MyAppointmentFragment.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RepresentativeBookingActivity.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/RepresentativeBookingActivity.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>794</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>712</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Fragments/AllDoctorListFragment.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WithdrawalActivity.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WithdrawalActivity.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WithdrawalActivity.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WithdrawalActivity.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/WithdrawalActivity.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MyWalletActivity.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MyWalletActivity.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MyWalletActivity.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MyWalletActivity.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationActivity.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationActivity.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AddNotificationActivity.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/AddNotificationActivity.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Services/MyFirebaseMessagingService.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Services/MyFirebaseMessagingService.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Services/MyFirebaseMessagingService.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Services/MyFirebaseMessagingService.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Services/MyFirebaseMessagingService.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/NotificationAdapter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Utils/GPSTracker.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationDetailActivity.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/NotificationActivity.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/OxygenBankSignupActivity.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/OxygenBankSignupActivity.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/OxygenBankLoginActivity.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HelpingSoldierSignupActivity.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HelpingSoldierSignupActivity.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HelpingSoldierSignupActivity.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehicleProfileActivity.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehicleProfileActivity.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/SignupActivity.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/SignupActivity.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/SignupActivity.java</url>
+          <line>287</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/SignupActivity.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>452</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>402</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehicleProfileActivity.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehicleProfileActivity.java</url>
+          <line>496</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>632</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>644</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesLoginActivity.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesLoginActivity.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>693</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>694</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesActivity.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesActivity.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>306</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>361</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>322</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/LabsHomeActivity.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1236</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1378</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1382</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1118</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1279</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1278</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1301</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1300</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1267</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorProfileActivity.java</url>
+          <line>1268</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>360</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>371</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>370</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>376</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>374</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>906</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>918</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>948</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Adapters/ReportsListAdpater.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>471</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>469</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>483</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>542</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>543</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>544</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>546</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>538</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>497</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>498</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>514</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>349</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>563</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalShopProfileActivity.java</url>
+          <line>564</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesActivity.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesActivity.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/HomeActivity.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPricesProfileActivity.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>446</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>444</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>445</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>449</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>409</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>410</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/QrCodeActivity.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/QrCodeActivity.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>440</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>439</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MarketPriceHomeActivity.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/QrCodeActivity.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/QrCodeActivity.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/QrCodeActivity.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalHomeActivity.java</url>
+          <line>960</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/MedicalHomeActivity.java</url>
+          <line>959</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorListActivity.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/DoctorListActivity.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Fragments/AllDoctorListFragment.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehiclesActivity.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ambitious/fghvendor/Activities/VehiclesActivity.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
