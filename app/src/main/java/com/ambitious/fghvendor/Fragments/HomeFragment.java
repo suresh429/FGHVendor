@@ -1,5 +1,7 @@
 package com.ambitious.fghvendor.Fragments;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -22,6 +24,7 @@ import com.ambitious.fghvendor.Activities.BloodBankLoginActivity;
 import com.ambitious.fghvendor.Activities.BloodListActivity;
 import com.ambitious.fghvendor.Activities.CovidServicesActivity;
 import com.ambitious.fghvendor.Activities.CovidWinnersActivity;
+import com.ambitious.fghvendor.Activities.DonorLoginActivity;
 import com.ambitious.fghvendor.Activities.LabListActivity;
 import com.ambitious.fghvendor.Activities.LabLoginActivity;
 import com.ambitious.fghvendor.Activities.LoginActivity;
@@ -258,14 +261,14 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.rl_Blood:
-                startActivity(new Intent(getContext(), BloodListActivity.class)
+               /* startActivity(new Intent(getContext(), BloodListActivity.class)
                         .putExtra("head", "Blood")
                         .putExtra("wallet", "" + wallet)
                         .putExtra("donated", "" + donated)
                 );
-              //  startActivity(new Intent(getContext(), BloodBankLoginActivity.class));
+                Animatoo.animateCard(getContext());*/
 
-                Animatoo.animateCard(getContext());
+                showAlertDialog();
                 break;
 
             case R.id.rl_Medical:
@@ -386,5 +389,28 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
         }
 
+    }
+
+    private void showAlertDialog() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(requireContext());
+        alertDialog.setTitle("Select Type");
+        String[] items = {"Donor","Banks"};
+        alertDialog.setItems(items, (dialog, which) -> {
+            switch(which) {
+                case 0:
+                    startActivity(new Intent(getContext(), DonorLoginActivity.class));
+                    Animatoo.animateCard(getContext());
+                    break;
+
+                case 1:
+                    startActivity(new Intent(getContext(), BloodBankLoginActivity.class));
+                    Animatoo.animateCard(getContext());
+                    break;
+
+            }
+        });
+        AlertDialog alert = alertDialog.create();
+        alert.setCanceledOnTouchOutside(true);
+        alert.show();
     }
 }

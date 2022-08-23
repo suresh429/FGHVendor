@@ -69,7 +69,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.ambitious.fghvendor.Activities.QrCodeActivity"

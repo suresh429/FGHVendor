@@ -109,11 +109,13 @@
             android:ellipsize="end"
             android:hint="@string/searchhere"
             android:paddingLeft="@dimen/_10sdp"
-            android:paddingRight="@dimen/_10sdp" />
+            android:paddingRight="@dimen/_10sdp"
+            android:visibility="gone"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_Blood"
