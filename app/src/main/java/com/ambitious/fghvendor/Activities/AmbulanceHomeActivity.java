@@ -53,10 +53,10 @@ import retrofit2.Callback;
 public class AmbulanceHomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private TextView tv_Head, tv_Login, tv_Type, tv_Available;
+    private TextView tv_Head, tv_Login, tv_Type, tv_Available, txtQrCode,txtHistory;
     private LinearLayout ll_Logout;
     private Switch switch_Available;
-    private ImageView iv_Bck,imgQrCode;
+    private ImageView iv_Bck;
     private EditText et_name, et_Mobile, et_Email, et_Address, et_Aadhar, et_Vehiclenum, et_Villagename, et_Cityname, et_Districtname, et_Deasc, etLatitude,etLongitude, et_Username, et_Password, et_Repassword;
     private Spinner sp_Type;
     private ImageView iv_One, iv_Two, iv_Three, iv_Driver;
@@ -116,7 +116,8 @@ public class AmbulanceHomeActivity extends AppCompatActivity implements View.OnC
     private void finds() {
         ll_Logout = findViewById(R.id.ll_Logout);
         tv_Head = findViewById(R.id.tv_Head);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         switch_Available = findViewById(R.id.switch_Available);
         tv_Login = findViewById(R.id.tv_Login);
         et_name = findViewById(R.id.et_name);
@@ -154,6 +155,8 @@ public class AmbulanceHomeActivity extends AppCompatActivity implements View.OnC
         iv_Driver.setOnClickListener(this);
         tv_Type.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
+
     }
 
     @Override
@@ -205,8 +208,8 @@ public class AmbulanceHomeActivity extends AppCompatActivity implements View.OnC
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                           // Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);
@@ -379,6 +382,13 @@ public class AmbulanceHomeActivity extends AppCompatActivity implements View.OnC
 
             case R.id.tv_Type:
                 sp_Type.performClick();
+                break;
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
                 break;
 
             case R.id.ll_Logout:

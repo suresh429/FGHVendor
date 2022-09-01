@@ -51,8 +51,8 @@ import retrofit2.Callback;
 public class MedicalHomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private TextView tv_Head, tv_Login, tv_Available;
-    private ImageView iv_Bck, iv_Profile, iv_One, iv_Two, iv_Three,imgQrCode;
+    private TextView tv_Head, tv_Login, tv_Available,txtQrCode,txtHistory;
+    private ImageView iv_Bck, iv_Profile, iv_One, iv_Two, iv_Three;
     private LinearLayout ll_Logout;
     private Switch switch_Available;
     private RelativeLayout rl_Loader;
@@ -102,7 +102,8 @@ public class MedicalHomeActivity extends AppCompatActivity implements View.OnCli
         rl_Loader = findViewById(R.id.rl_Loader);
         switch_Available = findViewById(R.id.switch_Available);
         iv_Profile = findViewById(R.id.iv_Profile);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         iv_One = findViewById(R.id.iv_One);
         iv_Two = findViewById(R.id.iv_Two);
         iv_Three = findViewById(R.id.iv_Three);
@@ -137,6 +138,7 @@ public class MedicalHomeActivity extends AppCompatActivity implements View.OnCli
         iv_Two.setOnClickListener(this);
         iv_Three.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
 
     }
 
@@ -265,6 +267,13 @@ public class MedicalHomeActivity extends AppCompatActivity implements View.OnCli
                 openSelectionDialog("2", 3333, str_3);
                 break;
 
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
+                break;
             case R.id.iv_Profile:
                 Intent intent4 = new Intent(mContext, ImageSelectActivity.class);
                 intent4.putExtra(ImageSelectActivity.FLAG_COMPRESS, true);//default is true
@@ -953,8 +962,8 @@ public class MedicalHomeActivity extends AppCompatActivity implements View.OnCli
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                          //  Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);

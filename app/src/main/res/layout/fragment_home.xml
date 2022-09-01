@@ -57,6 +57,26 @@
 
             </RelativeLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorBase">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vender_banner"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -97,9 +117,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:text="Covid\nServices"
                                 android:textColor="@color/colorBlack"
-                                android:gravity="center"
                                 android:textSize="@dimen/_14sdp"
                                 android:textStyle="bold" />
 
@@ -140,9 +160,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:text="Market Prices"
                                 android:textColor="@color/colorBlack"
-                                android:gravity="center"
                                 android:textSize="@dimen/_14sdp"
                                 android:textStyle="bold" />
 
@@ -323,7 +343,6 @@
                                 android:textStyle="bold" />
 
                         </LinearLayout>
-
 
 
                     </RelativeLayout>
@@ -528,9 +547,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:text="@string/vaccineregistration"
                                 android:textColor="@color/colorBlack"
-                                android:gravity="center"
                                 android:textSize="@dimen/_14sdp"
                                 android:textStyle="bold" />
 
@@ -556,9 +575,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:elevation="@dimen/_5sdp"
+                android:visibility="gone"
                 app:cardCornerRadius="@dimen/_2sdp"
-                app:contentPadding="@dimen/_5sdp"
-                android:visibility="gone">
+                app:contentPadding="@dimen/_5sdp">
 
 
                 <LinearLayout
@@ -685,37 +704,37 @@
 
                     </RelativeLayout>
 
-<!--                    <RelativeLayout-->
-<!--                        android:id="@+id/rl_Labs"-->
-<!--                        android:layout_width="0dp"-->
-<!--                        android:layout_height="match_parent"-->
-<!--                        android:layout_weight="1">-->
+                    <!--                    <RelativeLayout-->
+                    <!--                        android:id="@+id/rl_Labs"-->
+                    <!--                        android:layout_width="0dp"-->
+                    <!--                        android:layout_height="match_parent"-->
+                    <!--                        android:layout_weight="1">-->
 
-<!--                        <LinearLayout-->
-<!--                            android:layout_width="wrap_content"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_centerInParent="true"-->
-<!--                            android:gravity="center"-->
-<!--                            android:orientation="vertical">-->
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_centerInParent="true"-->
+                    <!--                            android:gravity="center"-->
+                    <!--                            android:orientation="vertical">-->
 
-<!--                            <ImageView-->
-<!--                                android:layout_width="@dimen/_80sdp"-->
-<!--                                android:layout_height="@dimen/_80sdp"-->
-<!--                                android:adjustViewBounds="true"-->
-<!--                                android:padding="@dimen/_15sdp"-->
-<!--                                android:src="@drawable/lab" />-->
+                    <!--                            <ImageView-->
+                    <!--                                android:layout_width="@dimen/_80sdp"-->
+                    <!--                                android:layout_height="@dimen/_80sdp"-->
+                    <!--                                android:adjustViewBounds="true"-->
+                    <!--                                android:padding="@dimen/_15sdp"-->
+                    <!--                                android:src="@drawable/lab" />-->
 
-<!--                            <TextView-->
-<!--                                android:layout_width="wrap_content"-->
-<!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="@string/labs"-->
-<!--                                android:textColor="@color/colorBlack"-->
-<!--                                android:textSize="@dimen/_14sdp"-->
-<!--                                android:textStyle="bold" />-->
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="wrap_content"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:text="@string/labs"-->
+                    <!--                                android:textColor="@color/colorBlack"-->
+                    <!--                                android:textSize="@dimen/_14sdp"-->
+                    <!--                                android:textStyle="bold" />-->
 
-<!--                        </LinearLayout>-->
+                    <!--                        </LinearLayout>-->
 
-<!--                    </RelativeLayout>-->
+                    <!--                    </RelativeLayout>-->
 
                 </LinearLayout>
 

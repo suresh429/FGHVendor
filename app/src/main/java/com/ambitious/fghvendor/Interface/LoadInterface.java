@@ -1036,4 +1036,9 @@ public interface LoadInterface {
 
     @GET("wallet_txn")
     Call<ResponseBody> walletTxn(@Query("user_id") String user_id);
+
+    //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Vendor txn %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    @GET("get_vendor_txn")
+    Call<ResponseBody> vendorTxn(@Query("user_id") String user_id);
 }

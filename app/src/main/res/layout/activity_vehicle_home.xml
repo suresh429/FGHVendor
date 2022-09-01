@@ -111,16 +111,47 @@
 
                 </RelativeLayout>
 
-                <ImageView
-                    android:id="@+id/imgQrCode"
-                    android:layout_width="150sp"
-                    android:layout_height="150dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/bg_box_base"
-                    android:padding="@dimen/_5sdp"
-                    android:src="@drawable/ic_baseline_qr_code_scanner_24"
-                    android:visibility="visible"
-                    android:layout_marginBottom="10dp"/>
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/imgQrCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/bg_grey"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"                        android:text="Shop Qr Code"
+                        android:drawableStart="@drawable/ic_baseline_qr_code_scanner_24"
+                        android:drawableTint="@color/colorBlack"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/txtHistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/bg_grey"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Payment History"
+                        android:drawableStart="@drawable/ic_payment"
+                        android:drawableTint="@color/colorBlack"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:visibility="visible" />
+
+                </LinearLayout>
 
                 <ImageView
                     android:id="@+id/iv_Driver"

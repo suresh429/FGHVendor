@@ -49,7 +49,6 @@ import com.ambitious.fghvendor.Utils.CustomSnakbar;
 import com.ambitious.fghvendor.Utils.Utility;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.bumptech.glide.Glide;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -93,7 +92,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             Log.e("city", "" + city);
             Log.e("lat", "" + lat);
             Log.e("lon", "" + lon);
-            String register_id = FirebaseInstanceId.getInstance().getToken();
+// String register_id = FirebaseInstanceId.getInstance().getToken();
+            String register_id = Utility.getSharedPreferences(requireContext(),"regId");
             updateRegisteId(m_androidId, register_id, city, lat, lon);
         } else {
             AlertConnection.showAlertDialog(getContext(), "No Internet Connection",
@@ -394,7 +394,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private void showAlertDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(requireContext());
         alertDialog.setTitle("Select Type");
-        String[] items = {"Donor","Banks"};
+        String[] items = {"Blood Donor","Blood Banks"};
         alertDialog.setItems(items, (dialog, which) -> {
             switch(which) {
                 case 0:

@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -73,7 +74,7 @@ public class PaymentHistoryActivity extends AppCompatActivity implements View.On
     private void getHistory(String uid) {
 
         rl_Loader.setVisibility(View.VISIBLE);
-        Call<ResponseBody> call = AppConfig.loadInterface().walletTxn(uid);
+        Call<ResponseBody> call = AppConfig.loadInterface().vendorTxn(uid);
         call.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, retrofit2.Response<ResponseBody> response) {
@@ -96,20 +97,25 @@ public class PaymentHistoryActivity extends AppCompatActivity implements View.On
 
                                 JSONObject result = array.getJSONObject(i);
 
-                                String wallet_txn_id = result.optString("wallet_txn_id");
+                                String payment_id = result.optString("payment_id");
+                                String vendor_id = result.optString("vendor_id");
                                 String user_id = result.optString("user_id");
+                                String userName = result.optString("name");
                                 String amount = result.optString("amount");
-                                String nature = result.optString("nature");
-                                String remark = result.optString("remark");
+                                String txn_id = result.optString("txn_id");
+                                String settled = result.optString("settled");
+                                String datetime = result.optString("datetime");
                                 String entrydt = result.optString("entrydt");
 
-                                Log.d("TAG", "onResponse: "+wallet_txn_id);
                                 HistoryModel historyModel = new HistoryModel();
-                                historyModel.setWallet_txn_id(wallet_txn_id);
+                                historyModel.setPayment_id(payment_id);
+                                historyModel.setVendor_id(vendor_id);
                                 historyModel.setUser_id(user_id);
+                                historyModel.setUserName(userName);
                                 historyModel.setAmount(amount);
-                                historyModel.setNature(nature);
-                                historyModel.setRemark(remark);
+                                historyModel.setTxn_id(txn_id);
+                                historyModel.setSettled(settled);
+                                historyModel.setDatetime(datetime);
                                 historyModel.setEntrydt(entrydt);
                                 historyModelArrayList.add(historyModel);
                             }
@@ -163,6 +169,10 @@ public class PaymentHistoryActivity extends AppCompatActivity implements View.On
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        Intent i=new Intent(this,HomeActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        finish();
         Animatoo.animateCard(mContext);
     }
 }

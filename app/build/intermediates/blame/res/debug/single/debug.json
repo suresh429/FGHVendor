@@ -4,12 +4,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_noti.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_settings.xml.flat",
@@ -20,12 +20,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_key_bck.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_key_bck.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_top.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_top.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_key_bck.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_key_bck.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
@@ -84,12 +84,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_prices_signup.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_prices_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ambulance.xml.flat",
@@ -440,6 +440,10 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_exit.xml"
     },
     {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_launcher.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\launcher.jpg"
+    },
+    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lab_update.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_lab_update.xml"
     },
@@ -474,6 +478,10 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_white_round.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\btn_white_round.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_grey.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_grey.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_donor_signup.xml.flat",
@@ -702,10 +710,6 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_report.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\report.png"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\launcher.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
@@ -996,6 +1000,10 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\setting.png"
     },
     {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vender_banner.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\vender_banner.jpg"
+    },
+    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\chat.png"
     },
@@ -1082,6 +1090,10 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_logo.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\splash_logo.jpg"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",

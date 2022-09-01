@@ -73,9 +73,9 @@ public class QrCodeActivity extends AppCompatActivity {
     public void onBackPressed() {
        // super.onBackPressed();
 
-        Intent intent = new Intent(getApplicationContext(),SplashActivity.class);
+       /* Intent intent = new Intent(getApplicationContext(),SplashActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
+        startActivity(intent);*/
         finish();
     }
 

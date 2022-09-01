@@ -38,7 +38,6 @@ import com.ambitious.fghvendor.Utils.CustomSnakbar;
 import com.ambitious.fghvendor.Utils.Utility;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.bumptech.glide.Glide;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -59,8 +58,8 @@ import retrofit2.Callback;
 public class MarketPriceHomeActivity extends AppCompatActivity implements View.OnClickListener, MarketProductAdapter.ItemClickListener {
     private static final String TAG = "MarketPriceHomeActivity";
     private Context mContext = this;
-    private ImageView iv_Profile,imgQrCode;
-    private TextView tv_Login, tv_Available, tv_Head, txtAddList;
+    private ImageView iv_Profile;
+    private TextView tv_Login, tv_Available, tv_Head, txtAddList, txtQrCode,txtHistory;
     EditText etFirstName, etLastName, etAccountNumber, etIfscCode, etUpiId, etPaymentMobile;
     private EditText btnAddBankDetails, et_name, et_Mobile, et_Email, et_Address, et_Cityname, et_Districtname, et_Password, et_Repassword, etLatitude,etLongitude,et_Aposprice, et_Anegprice, et_Bposprice, et_Bnegprice, et_ABposprice, et_ABnegprice, et_Oposprice, et_Onegprice;
     private CheckBox chk_Apositive, chk_Anegitive, chk_Bpositive, chk_Bnegitive, chk_ABpositive, chk_ABnegitive, chk_Opositive, chk_Onegitive;
@@ -191,7 +190,8 @@ public class MarketPriceHomeActivity extends AppCompatActivity implements View.O
         tv_Available = findViewById(R.id.tv_Available);
         tv_Head = findViewById(R.id.tv_Head);
         iv_Profile = findViewById(R.id.iv_Profile);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         tv_Login = findViewById(R.id.tv_Login);
         txtAddList = findViewById(R.id.txtAddList);
         btnAddBankDetails = findViewById(R.id.btnAddBankDetails);
@@ -222,6 +222,7 @@ public class MarketPriceHomeActivity extends AppCompatActivity implements View.O
         ll_Logout.setOnClickListener(this);
         btnAddBankDetails.setOnClickListener(this);
         txtAddList.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
 
     }
 
@@ -250,6 +251,14 @@ public class MarketPriceHomeActivity extends AppCompatActivity implements View.O
                 arrayList.add(arrayList.size(), marketProduct);
                 marketProductAdapter.notifyItemInserted(arrayList.size());
                 marketProductAdapter.notifyDataSetChanged();
+
+                break;
+
+                case R.id.txtHistory:
+                    Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                    //intent.putExtra("qrCode",qrCode);
+                    intentHistory.putExtra("title",name);
+                    startActivity(intentHistory);
 
                 break;
 
@@ -426,10 +435,10 @@ public class MarketPriceHomeActivity extends AppCompatActivity implements View.O
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
+                          //  Glide.with(mContext).load(qrCode).into(imgQrCode);
                             Log.d(TAG, "onResponse: "+name);
 
-                            imgQrCode.setOnClickListener(v -> {
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);
@@ -553,7 +562,8 @@ public class MarketPriceHomeActivity extends AppCompatActivity implements View.O
         String repass = et_Repassword.getText().toString();
         String latitude = etLatitude.getText().toString();
         String longitude = etLongitude.getText().toString();
-        String register_id = FirebaseInstanceId.getInstance().getToken();
+// String register_id = FirebaseInstanceId.getInstance().getToken();
+        String register_id = Utility.getSharedPreferences(getApplicationContext(),"regId");
 
         /*if (path.equalsIgnoreCase("")) {
             CustomSnakbar.showDarkSnakabar(mContext, v, "Please Select Profile image.");

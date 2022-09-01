@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FGH Vendor</string>
+    <string name="app_name">FGH Business</string>
     <string name="username">Username*</string>
     <string name="password">Password</string>
     <string name="forgot">Forgot Password?</string>

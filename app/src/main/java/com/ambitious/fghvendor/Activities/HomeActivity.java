@@ -16,6 +16,7 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
@@ -62,7 +63,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 
 public class HomeActivity extends AppCompatActivity implements DuoMenuView.OnMenuClickListener, View.OnClickListener {
-
+    boolean doubleBackToExitPressedOnce = false;
     private Context mContext = this;
     private CustomMenuAdapter mMenuAdapter;
     private ViewHolder mViewHolder;
@@ -255,8 +256,22 @@ public class HomeActivity extends AppCompatActivity implements DuoMenuView.OnMen
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        Animatoo.animateCard(mContext);
+        //super.onBackPressed();
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
 
     @Override

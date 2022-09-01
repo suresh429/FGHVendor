@@ -21,7 +21,6 @@ import com.ambitious.fghvendor.Utils.AppConfig;
 import com.ambitious.fghvendor.Utils.CustomSnakbar;
 import com.ambitious.fghvendor.Utils.Utility;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -96,7 +95,8 @@ public class MarketPricesLoginActivity extends AppCompatActivity implements View
         String pass = et_Pass.getText().toString();
         String user_type = "market";
        // String user_type = "user";
-        String register_id = FirebaseInstanceId.getInstance().getToken();
+// String register_id = FirebaseInstanceId.getInstance().getToken();
+        String register_id = Utility.getSharedPreferences(getApplicationContext(),"regId");
 
         if (email.equalsIgnoreCase("")) {
             et_Email.setError("Can't be Empty");
@@ -190,6 +190,10 @@ public class MarketPricesLoginActivity extends AppCompatActivity implements View
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        Intent i=new Intent(this,HomeActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        finish();
         Animatoo.animateCard(mContext);
     }
 }

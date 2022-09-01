@@ -50,10 +50,10 @@ import retrofit2.Callback;
 public class VehicleHomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private TextView tv_Head, tv_Login, tv_Available;
+    private TextView tv_Head, tv_Login, tv_Available, txtQrCode,txtHistory;
     private LinearLayout ll_Logout;
     private Switch switch_Available;
-    private ImageView iv_Bck,imgQrCode;
+    private ImageView iv_Bck;
     EditText etFirstName,etLastName,etAccountNumber,etIfscCode,etUpiId,etPaymentMobile;
     private EditText et_name, et_Mobile, et_Email, et_Address, et_Aadhar, et_Vehiclenum, etLatitude,etLongitude,et_Villagename, et_Cityname, et_Districtname, et_Deasc, et_Username, et_Password, et_Repassword;
     private ImageView iv_One, iv_Two, iv_Three, iv_Driver;
@@ -101,7 +101,8 @@ public class VehicleHomeActivity extends AppCompatActivity implements View.OnCli
         ll_Logout = findViewById(R.id.ll_Logout);
         tv_Head = findViewById(R.id.tv_Head);
         switch_Available = findViewById(R.id.switch_Available);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         tv_Login = findViewById(R.id.tv_Login);
         et_name = findViewById(R.id.et_name);
         et_Mobile = findViewById(R.id.et_Mobile);
@@ -138,6 +139,8 @@ public class VehicleHomeActivity extends AppCompatActivity implements View.OnCli
         iv_Three.setOnClickListener(this);
         iv_Driver.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
+
     }
 
     @Override
@@ -195,8 +198,8 @@ public class VehicleHomeActivity extends AppCompatActivity implements View.OnCli
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                           // Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);
@@ -430,6 +433,14 @@ public class VehicleHomeActivity extends AppCompatActivity implements View.OnCli
 
             case R.id.iv_Three:
                 openSelectionDialog("2", 3333, str_3);
+                break;
+
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
                 break;
 
             case R.id.iv_Driver:

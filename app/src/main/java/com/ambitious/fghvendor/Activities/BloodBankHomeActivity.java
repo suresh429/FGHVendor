@@ -52,8 +52,8 @@ import retrofit2.Callback;
 public class BloodBankHomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private ImageView iv_Profile,imgQrCode;
-    private TextView tv_Login, tv_Available, tv_Head;
+    private ImageView iv_Profile;
+    private TextView tv_Login, tv_Available, tv_Head, txtQrCode,txtHistory;
     EditText etFirstName,etLastName,etAccountNumber,etIfscCode,etUpiId,etPaymentMobile;
     private EditText et_name, et_Mobile, et_Email, et_Address, et_Password, et_Repassword, etLatitude,etLongitude,et_Aposprice, et_Anegprice, et_Bposprice, et_Bnegprice, et_ABposprice, et_ABnegprice, et_Oposprice, et_Onegprice;
     private CheckBox chk_Apositive, chk_Anegitive, chk_Bpositive, chk_Bnegitive, chk_ABpositive, chk_ABnegitive, chk_Opositive, chk_Onegitive;
@@ -499,7 +499,8 @@ public class BloodBankHomeActivity extends AppCompatActivity implements View.OnC
     private void finds() {
 
         iv_Profile = findViewById(R.id.iv_Profile);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         tv_Login = findViewById(R.id.tv_Login);
         tv_Available = findViewById(R.id.tv_Available);
         tv_Head = findViewById(R.id.tv_Head);
@@ -541,6 +542,7 @@ public class BloodBankHomeActivity extends AppCompatActivity implements View.OnC
         iv_Profile.setOnClickListener(this);
         btn_Login.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
 
     }
 
@@ -570,6 +572,14 @@ public class BloodBankHomeActivity extends AppCompatActivity implements View.OnC
                     AlertConnection.showAlertDialog(mContext, "No Internet Connection",
                             "You don't have internet connection.", false);
                 }
+                break;
+
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
                 break;
 
             case R.id.ll_Logout:
@@ -685,8 +695,8 @@ public class BloodBankHomeActivity extends AppCompatActivity implements View.OnC
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                           // Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);

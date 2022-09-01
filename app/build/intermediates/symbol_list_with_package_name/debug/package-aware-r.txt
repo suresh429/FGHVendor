@@ -1970,6 +1970,7 @@ drawable bg_circle
 drawable bg_circle_base
 drawable bg_circle_gray
 drawable bg_circle_sel
+drawable bg_grey
 drawable bg_one
 drawable bg_round_chat
 drawable blood
@@ -2149,6 +2150,7 @@ drawable sanatization
 drawable setting
 drawable sharing
 drawable shop_img
+drawable splash_logo
 drawable teleg
 drawable telemedi
 drawable three
@@ -2159,6 +2161,7 @@ drawable two
 drawable urology
 drawable user
 drawable vaccination
+drawable vender_banner
 drawable vetreneri
 drawable what
 drawable win
@@ -2844,6 +2847,7 @@ id txtAddList
 id txtDate
 id txtDone
 id txtDownload
+id txtHistory
 id txtId
 id txtIfscCode
 id txtPayment
@@ -3159,6 +3163,7 @@ layout zxing_capture
 menu popup_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw keep
 raw notification_tone
 raw rzp_config
 raw success_notification

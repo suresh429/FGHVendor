@@ -53,8 +53,8 @@ import retrofit2.Callback;
 public class BloodDonorHomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private ImageView iv_Driver, iv_One, iv_Two, iv_Three,imgQrCode;
-    private TextView tv_Login, tv_Group, tv_Available, tv_Head;
+    private ImageView iv_Driver, iv_One, iv_Two, iv_Three;
+    private TextView tv_Login, tv_Group, tv_Available, tv_Head, txtQrCode,txtHistory;
     private Spinner sp_Bloodgrp;
     private Button btn_Login;
     private RelativeLayout rl_Loader;
@@ -152,8 +152,8 @@ public class BloodDonorHomeActivity extends AppCompatActivity implements View.On
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                           // Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);
@@ -321,7 +321,8 @@ public class BloodDonorHomeActivity extends AppCompatActivity implements View.On
         iv_One = findViewById(R.id.iv_One);
         iv_Two = findViewById(R.id.iv_Two);
         iv_Three = findViewById(R.id.iv_Three);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         tv_Login = findViewById(R.id.tv_Login);
         tv_Group = findViewById(R.id.tv_Group);
         tv_Available = findViewById(R.id.tv_Available);
@@ -355,6 +356,8 @@ public class BloodDonorHomeActivity extends AppCompatActivity implements View.On
         iv_Three.setOnClickListener(this);
         btn_Login.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
+
 
     }
 
@@ -380,6 +383,14 @@ public class BloodDonorHomeActivity extends AppCompatActivity implements View.On
                     AlertConnection.showAlertDialog(mContext, "No Internet Connection",
                             "You don't have internet connection.", false);
                 }
+                break;
+
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
                 break;
 
             case R.id.ll_Logout:

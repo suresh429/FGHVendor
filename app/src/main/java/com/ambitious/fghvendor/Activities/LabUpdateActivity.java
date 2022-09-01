@@ -50,8 +50,8 @@ import retrofit2.Callback;
 public class LabUpdateActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext = this;
-    private TextView tv_Head, tv_Login, tv_Available;
-    private ImageView iv_Profile, iv_One, iv_Two, iv_Three, iv_Bck,imgQrCode;
+    private TextView tv_Head, tv_Login, tv_Available ,txtQrCode,txtHistory;
+    private ImageView iv_Profile, iv_One, iv_Two, iv_Three, iv_Bck;
     private LinearLayout ll_Logout;
     private Switch switch_Available;
     private RelativeLayout rl_Loader;
@@ -98,7 +98,8 @@ public class LabUpdateActivity extends AppCompatActivity implements View.OnClick
         rl_Loader = findViewById(R.id.rl_Loader);
         switch_Available = findViewById(R.id.switch_Available);
         iv_Profile = findViewById(R.id.iv_Profile);
-        imgQrCode = findViewById(R.id.imgQrCode);
+        txtQrCode = findViewById(R.id.imgQrCode);
+        txtHistory = findViewById(R.id.txtHistory);
         iv_One = findViewById(R.id.iv_One);
         iv_Two = findViewById(R.id.iv_Two);
         iv_Three = findViewById(R.id.iv_Three);
@@ -135,6 +136,8 @@ public class LabUpdateActivity extends AppCompatActivity implements View.OnClick
         iv_Three.setOnClickListener(this);
         ll_Logout.setOnClickListener(this);
 //        iv_Bck.setOnClickListener(this);
+        txtHistory.setOnClickListener(this);
+
 
     }
 
@@ -231,6 +234,14 @@ public class LabUpdateActivity extends AppCompatActivity implements View.OnClick
                 startActivityForResult(intent4, 1314);
                 break;
 
+            case R.id.txtHistory:
+                Intent intentHistory = new Intent(getApplicationContext(),PaymentHistoryActivity.class);
+                //intent.putExtra("qrCode",qrCode);
+               // intentHistory.putExtra("title",name);
+                startActivity(intentHistory);
+
+                break;
+
             case R.id.btn_Login:
                 if (Utility.isNetworkConnected(mContext)) {
                     Validate(v);
@@ -301,7 +312,7 @@ public class LabUpdateActivity extends AppCompatActivity implements View.OnClick
         String district = et_Districtname.getText().toString();
         String pass = et_Password.getText().toString();
         String repass = et_Repassword.getText().toString();
-        String user_type = "rmp";
+        String user_type = "labs";
         boolean img_sel = false;
 
         if (!path1.equalsIgnoreCase("") || !str_1.equalsIgnoreCase("")) {
@@ -953,8 +964,8 @@ public class LabUpdateActivity extends AppCompatActivity implements View.OnClick
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
-                            Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            imgQrCode.setOnClickListener(v -> {
+                           // Glide.with(mContext).load(qrCode).into(imgQrCode);
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);

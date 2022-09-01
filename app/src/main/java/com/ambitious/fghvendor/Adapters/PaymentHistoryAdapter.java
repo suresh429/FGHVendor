@@ -41,16 +41,16 @@ public class PaymentHistoryAdapter extends RecyclerView.Adapter<PaymentHistoryAd
 
         HistoryModel historyModel = historyModelArrayList.get(position);
 
-        holder.txtId.setText("Transaction Id : "+historyModel.getWallet_txn_id());
+        holder.txtId.setText("Transaction Id : "+historyModel.getTxn_id());
         holder.txtPrice.setText("\u20b9"+historyModel.getAmount());
-        holder.txtRemark.setText(historyModel.getRemark());
+        holder.txtRemark.setText(historyModel.getUserName());
 
         DateTimeFormatter formatter = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             LocalDateTime dateTime = LocalDateTime.parse(historyModel.getEntrydt(), formatter);
             DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd MMM yyyy");
-            DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm a");
+            DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("hh:mm a");
             System.out.println(dateTime.format(formatter2));
             holder.txtDate.setText("Date : "+dateTime.format(formatter2) +"    Time : "+dateTime.format(timeFormatter));
 
