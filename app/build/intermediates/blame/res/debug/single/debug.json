@@ -436,12 +436,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_login.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_exit.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_launcher.jpg.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\launcher.jpg"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_exit.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lab_update.xml.flat",

@@ -55,6 +55,7 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
     private LinearLayout ll_Logout;
     private Switch switch_Available;
     private RelativeLayout rl_Loader;
+    EditText etFirstName,etLastName,etAccountNumber,etIfscCode,etUpiId,etPaymentMobile;
     private EditText et_Clinicname, et_Name, et_Mobile, et_Email, et_Address, et_Cityname, et_Districtname, etLatitude,etLongitude,et_Deasc, et_Password, et_Repassword;
     private Button btn_Login;
     private String path = "", path1 = "", path2 = "", path3 = "";
@@ -118,6 +119,12 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
         tv_Head = findViewById(R.id.tv_Head);
         btn_Login = findViewById(R.id.btn_Login);
         ll_Logout = findViewById(R.id.ll_Logout);
+        etFirstName = findViewById(R.id.etFirstName);
+        etLastName = findViewById(R.id.etLastName);
+        etAccountNumber = findViewById(R.id.etAccountNumber);
+        etIfscCode = findViewById(R.id.etIfscCode);
+        etUpiId = findViewById(R.id.etUpiId);
+        etPaymentMobile = findViewById(R.id.etPaymentMobile);
         etLatitude = findViewById(R.id.et_Latitude);
         etLongitude = findViewById(R.id.et_Longitude);
 
@@ -130,6 +137,7 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
         ll_Logout.setOnClickListener(this);
         iv_Bck.setOnClickListener(this);
         txtHistory.setOnClickListener(this);
+       // txtQrCode.setOnClickListener(this);
 
 
     }
@@ -306,7 +314,7 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
         String longitude = etLongitude.getText().toString();
         String pass = et_Password.getText().toString();
         String repass = et_Repassword.getText().toString();
-        String user_type = "rmp";
+        String user_type = "vaterinary";
         boolean img_sel = false;
 
         if (!path1.equalsIgnoreCase("") || !str_1.equalsIgnoreCase("")) {
@@ -359,6 +367,29 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
             et_Repassword.setError("Re Enter!");
             et_Repassword.requestFocus();
             CustomSnakbar.showDarkSnakabar(mContext, v, "Password does not matched!");
+        } else if (etFirstName.getText().toString().isEmpty()){
+            etFirstName.setError("Enter First Name");
+            etFirstName.requestFocus();
+        }
+
+        else if (etLastName.getText().toString().isEmpty()){
+            etLastName.setError("Enter Last Name");
+            etLastName.requestFocus();
+        }
+
+        else if (etAccountNumber.getText().toString().isEmpty()){
+            etAccountNumber.setError("Enter Account Number");
+            etAccountNumber.requestFocus();
+        }
+
+        else if (etIfscCode.getText().toString().isEmpty()){
+            etIfscCode.setError("Enter IFSC Code");
+            etIfscCode.requestFocus();
+        }
+
+        else if (etPaymentMobile.getText().toString().isEmpty()){
+            etPaymentMobile.setError("Enter Payment Mobile");
+            etPaymentMobile.requestFocus();
         } else {
 
             if (!path.equalsIgnoreCase("")) {
@@ -379,9 +410,11 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
 
         Call<ResponseBody> call;
         if (path.equalsIgnoreCase("")) {
-            call = AppConfig.loadInterface().updateVaterinary(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,latitude,longitude);
+            call = AppConfig.loadInterface().updateVaterinary(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,etFirstName.getText().toString(),etLastName.getText().toString(),
+                    etAccountNumber.getText().toString(),etIfscCode.getText().toString(),etUpiId.getText().toString(),etPaymentMobile.getText().toString(),latitude,longitude);
         } else {
-            call = AppConfig.loadInterface().updateVaterinaryImage(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,latitude,longitude, body);
+            call = AppConfig.loadInterface().updateVaterinaryImage(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,etFirstName.getText().toString(),etLastName.getText().toString(),
+                    etAccountNumber.getText().toString(),etIfscCode.getText().toString(),etUpiId.getText().toString(),etPaymentMobile.getText().toString(),latitude,longitude, body);
         }
         call.enqueue(new Callback<ResponseBody>() {
             @Override
@@ -921,14 +954,28 @@ public class VaterinaryUpdateActivity extends AppCompatActivity implements View.
                             String vehicle_no = result.optString("vehicle_no");
                             String images = result.optString("images");
                             String available = result.optString("available");
+                            String account_first_name = result.optString("account_first_name");
+                            String account_last_name = result.optString("account_last_name");
+                            String account_no = result.optString("account_no");
+                            String ifsc_code = result.optString("ifsc_code");
+                            String upi_id = result.optString("upi_id");
+                            String payment_mobile = result.optString("payment_mobile");
                             String latitude = result.optString("lat");
                             String longitude = result.optString("lng");
                             String qrCode = result.optString("qrcode");
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
+                            etFirstName.setText(account_first_name);
+                            etLastName.setText(account_last_name);
+                            etLatitude.setText(latitude);
+                            etLongitude.setText(longitude);
+                            etAccountNumber.setText(account_no);
+                            etIfscCode.setText(ifsc_code);
+                            etPaymentMobile.setText(payment_mobile);
+                            etUpiId.setText(upi_id);
                            // Glide.with(mContext).load(qrCode).into(imgQrCode);
-                            txtHistory.setOnClickListener(v -> {
+                            txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
                                 intent.putExtra("qrCode",qrCode);
                                 intent.putExtra("title",name);

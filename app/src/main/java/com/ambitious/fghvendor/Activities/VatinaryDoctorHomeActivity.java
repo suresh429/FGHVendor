@@ -473,7 +473,7 @@ public class VatinaryDoctorHomeActivity extends AppCompatActivity implements Vie
         if (Utility.isNetworkConnected(mContext)) {
             String uid = Utility.getSharedPreferences(mContext, "u_id");
             if (is_updated) {
-                getPatients(uid, "rmppatient", iv_More);
+                getPatients(uid, "veterinarypatient", iv_More);
             }
         } else {
             AlertConnection.showAlertDialog(mContext, "No Internet Connection",

@@ -73,6 +73,7 @@ public class VehicleLoginActivity extends AppCompatActivity implements View.OnCl
         Intent i=new Intent(this,HomeActivity.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
         finish();
         Animatoo.animateCard(mContext);
     }

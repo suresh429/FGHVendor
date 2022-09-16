@@ -55,6 +55,7 @@ public class RMPUpateActivity extends AppCompatActivity implements View.OnClickL
     private LinearLayout ll_Logout;
     private Switch switch_Available;
     private RelativeLayout rl_Loader;
+    EditText etFirstName,etLastName,etAccountNumber,etIfscCode,etUpiId,etPaymentMobile;
     private EditText et_Clinicname, et_Name, et_Mobile, et_Email, et_Address, et_Cityname, et_Districtname,etLatitude,etLongitude, et_Deasc, et_Password, et_Repassword;
     private Button btn_Login;
     private String path = "", path1 = "", path2 = "", path3 = "";
@@ -119,6 +120,12 @@ public class RMPUpateActivity extends AppCompatActivity implements View.OnClickL
         tv_Head = findViewById(R.id.tv_Head);
         btn_Login = findViewById(R.id.btn_Login);
         ll_Logout = findViewById(R.id.ll_Logout);
+        etFirstName = findViewById(R.id.etFirstName);
+        etLastName = findViewById(R.id.etLastName);
+        etAccountNumber = findViewById(R.id.etAccountNumber);
+        etIfscCode = findViewById(R.id.etIfscCode);
+        etUpiId = findViewById(R.id.etUpiId);
+        etPaymentMobile = findViewById(R.id.etPaymentMobile);
         etLatitude = findViewById(R.id.et_Latitude);
         etLongitude = findViewById(R.id.et_Longitude);
 
@@ -358,6 +365,29 @@ public class RMPUpateActivity extends AppCompatActivity implements View.OnClickL
             et_Repassword.setError("Re Enter!");
             et_Repassword.requestFocus();
             CustomSnakbar.showDarkSnakabar(mContext, v, "Password does not matched!");
+        } else if (etFirstName.getText().toString().isEmpty()){
+            etFirstName.setError("Enter First Name");
+            etFirstName.requestFocus();
+        }
+
+        else if (etLastName.getText().toString().isEmpty()){
+            etLastName.setError("Enter Last Name");
+            etLastName.requestFocus();
+        }
+
+        else if (etAccountNumber.getText().toString().isEmpty()){
+            etAccountNumber.setError("Enter Account Number");
+            etAccountNumber.requestFocus();
+        }
+
+        else if (etIfscCode.getText().toString().isEmpty()){
+            etIfscCode.setError("Enter IFSC Code");
+            etIfscCode.requestFocus();
+        }
+
+        else if (etPaymentMobile.getText().toString().isEmpty()){
+            etPaymentMobile.setError("Enter Payment Mobile");
+            etPaymentMobile.requestFocus();
         } else {
 
             if (!path.equalsIgnoreCase("")) {
@@ -378,9 +408,11 @@ public class RMPUpateActivity extends AppCompatActivity implements View.OnClickL
 
         Call<ResponseBody> call;
         if (path.equalsIgnoreCase("")) {
-            call = AppConfig.loadInterface().updateRMP(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,"","","","","","",latitude,longitude);
+            call = AppConfig.loadInterface().updateRMP(uid, name, shpname, number, email, address, user_type, city, district, desc, pass,etFirstName.getText().toString(),etLastName.getText().toString(),
+                    etAccountNumber.getText().toString(),etIfscCode.getText().toString(),etUpiId.getText().toString(),etPaymentMobile.getText().toString(),latitude,longitude);
         } else {
-            call = AppConfig.loadInterface().updateRMPImage(uid, name, shpname, number, email, address, user_type, city, district, desc, pass, "","","","","","",latitude,longitude,body);
+            call = AppConfig.loadInterface().updateRMPImage(uid, name, shpname, number, email, address, user_type, city, district, desc, pass, etFirstName.getText().toString(),etLastName.getText().toString(),
+                    etAccountNumber.getText().toString(),etIfscCode.getText().toString(),etUpiId.getText().toString(),etPaymentMobile.getText().toString(),latitude,longitude,body);
         }
         call.enqueue(new Callback<ResponseBody>() {
             @Override
@@ -920,12 +952,26 @@ public class RMPUpateActivity extends AppCompatActivity implements View.OnClickL
                             String vehicle_no = result.optString("vehicle_no");
                             String images = result.optString("images");
                             String available = result.optString("available");
+                            String account_first_name = result.optString("account_first_name");
+                            String account_last_name = result.optString("account_last_name");
+                            String account_no = result.optString("account_no");
+                            String ifsc_code = result.optString("ifsc_code");
+                            String upi_id = result.optString("upi_id");
+                            String payment_mobile = result.optString("payment_mobile");
                             String latitude = result.optString("lat");
                             String longitude = result.optString("lng");
                             String qrCode = result.optString("qrcode");
 
                             etLatitude.setText(latitude);
                             etLongitude.setText(longitude);
+                            etFirstName.setText(account_first_name);
+                            etLastName.setText(account_last_name);
+                            etLatitude.setText(latitude);
+                            etLongitude.setText(longitude);
+                            etAccountNumber.setText(account_no);
+                            etIfscCode.setText(ifsc_code);
+                            etPaymentMobile.setText(payment_mobile);
+                            etUpiId.setText(upi_id);
                            // Glide.with(mContext).load(qrCode).into(imgQrCode);
                             txtQrCode.setOnClickListener(v -> {
                                 Intent intent = new Intent(getApplicationContext(),QrCodeActivity.class);
