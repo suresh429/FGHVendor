@@ -1,13 +1,13 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.ambitious.fghvendor"
-4    android:versionCode="17"
-5    android:versionName="2.0" >
+4    android:versionCode="1"
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
 8-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="30" />
+9        android:targetSdkVersion="32" />
 9-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -36,28 +36,28 @@
 18-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:16:9-66
 19
 20    <queries>
-20-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:19:5-29:15
+20-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:18:5-28:15
 21        <package android:name="com.whatsapp" />
-21-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:9-48
-21-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:18-45
+21-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:19:9-48
+21-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:19:18-45
 22        <package android:name="com.facebook.orca" />
-22-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:9-53
-22-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:18-50
+22-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:9-53
+22-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:18-50
 23        <package android:name="com.facebook.katana" />
-23-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:9-55
-23-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:18-52
+23-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:9-55
+23-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:18-52
 24        <package android:name="com.google.android.apps.nbu.paisa.user" />
-24-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:9-74
-24-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:18-71
+24-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:9-74
+24-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:18-71
 25        <package android:name="com.phonepe.app" />
-25-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:24:9-51
-25-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:24:18-48
+25-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:9-51
+25-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:18-48
 26
 27        <intent>
-27-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:26:9-28:18
+27-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:25:9-27:18
 28            <action android:name="android.intent.action.SEND" />
-28-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:27:13-65
-28-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:27:21-62
+28-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:26:13-65
+28-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:26:21-62
 29        </intent>
 30    </queries>
 31
@@ -112,1020 +112,899 @@
 55-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:5-82
 55-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:22-79
 56
-57    <uses-feature
-57-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-58        android:glEsVersion="0x00020000"
-58-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-59        android:required="true" />
-59-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-60
-61    <application
-61-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:31:5-428:19
-62        android:allowBackup="true"
-62-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:32:9-35
-63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-63-->[androidx.core:core:1.3.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\c1d55b74461ac8bedced8a0777ac9d4e\core-1.3.0\AndroidManifest.xml:24:18-86
-64        android:debuggable="true"
-65        android:extractNativeLibs="false"
-66        android:icon="@drawable/launcher"
-66-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:33:9-42
-67        android:label="@string/app_name"
-67-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:34:9-41
-68        android:networkSecurityConfig="@xml/network_security_config"
-68-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:35:9-69
-69        android:requestLegacyExternalStorage="true"
-69-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:36:9-52
-70        android:roundIcon="@drawable/launcher"
-70-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:37:9-47
-71        android:supportsRtl="true"
-71-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:38:9-35
-72        android:theme="@style/AppTheme" >
-72-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:39:9-40
-73        <activity
-73-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:41:9-43:40
-74            android:name="com.ambitious.fghvendor.Activities.QrCodeActivity"
-74-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:42:13-77
-75            android:exported="false" />
-75-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:43:13-37
-76        <activity
-76-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:44:9-46:40
-77            android:name="com.ambitious.fghvendor.Activities.PaidSuccessActivity"
-77-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:45:13-82
-78            android:exported="false" />
-78-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:46:13-37
-79        <activity
-79-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:47:9-49:40
-80            android:name="com.ambitious.fghvendor.Activities.PaymentHistoryActivity"
-80-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:48:13-85
-81            android:exported="false" />
-81-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:49:13-37
-82        <activity
-82-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:50:9-52:40
-83            android:name="com.ambitious.fghvendor.Activities.MarketPriceHomeActivity"
-83-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:51:13-86
-84            android:exported="false" />
-84-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:52:13-37
-85        <activity
-85-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:53:9-55:40
-86            android:name="com.ambitious.fghvendor.Activities.BankDetailsActivity"
-86-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:54:13-82
-87            android:exported="false" />
-87-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:55:13-37
-88        <activity
-88-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:56:9-58:40
-89            android:name="com.ambitious.fghvendor.Activities.MarketPricesProfileActivity"
-89-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:57:13-90
-90            android:exported="false" />
-90-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:58:13-37
-91        <activity
-91-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:59:9-61:40
-92            android:name="com.ambitious.fghvendor.Activities.MarketPricesSignupActivity"
-92-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:60:13-89
-93            android:exported="false" />
-93-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:61:13-37
-94        <activity
-94-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:62:9-64:40
-95            android:name="com.ambitious.fghvendor.Activities.MarketPricesLoginActivity"
-95-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:63:13-88
-96            android:exported="false" />
-96-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:64:13-37
-97        <activity
-97-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:65:9-67:40
-98            android:name="com.ambitious.fghvendor.Activities.MarketPricesActivity"
-98-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:66:13-83
-99            android:exported="false" />
-99-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:67:13-37
-100        <activity
-100-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:68:9-70:40
-101            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyHomeActivity"
-101-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:69:13-86
-102            android:exported="false" />
-102-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:70:13-37
-103        <activity
-103-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:71:9-73:40
-104            android:name="com.ambitious.fghvendor.Activities.DeliveryBoySignupActivity"
-104-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:72:13-88
-105            android:exported="false" />
-105-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:73:13-37
-106        <activity
-106-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:74:9-76:40
-107            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyProfileActivity"
-107-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:75:13-89
-108            android:exported="false" />
-108-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:76:13-37
-109        <activity
-109-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:77:9-79:40
-110            android:name="com.ambitious.fghvendor.Activities.DeloveryBoyLoginActivity"
-110-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:78:13-87
-111            android:exported="false" />
-111-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:79:13-37
-112        <activity
-112-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:80:9-82:40
-113            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyActivity"
-113-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:81:13-82
-114            android:exported="false" />
-114-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:82:13-37
-115        <activity
-115-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:83:9-85:40
-116            android:name="com.ambitious.fghvendor.Activities.VehicleSignupActivity"
-116-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:84:13-84
-117            android:exported="false" />
-117-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:85:13-37
-118        <activity
-118-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:86:9-88:40
-119            android:name="com.ambitious.fghvendor.Activities.VehicleHomeActivity"
-119-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:87:13-82
-120            android:exported="false" />
-120-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:88:13-37
-121        <activity
-121-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:89:9-91:40
-122            android:name="com.ambitious.fghvendor.Activities.VehicleLoginActivity"
-122-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:90:13-83
-123            android:exported="false" />
-123-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:91:13-37
-124        <activity
-124-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:92:9-94:40
-125            android:name="com.ambitious.fghvendor.Activities.VehicleProfileActivity"
-125-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:93:13-85
-126            android:exported="false" />
-126-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:94:13-37
-127        <activity
-127-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:95:9-97:40
-128            android:name="com.ambitious.fghvendor.Activities.VehiclesActivity"
-128-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:96:13-79
-129            android:exported="false" />
-129-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:97:13-37
-130        <activity
-130-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:98:9-100:40
-131            android:name="com.ambitious.fghvendor.Activities.FoodBankSignupActivity"
-131-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:99:13-85
-132            android:exported="false" />
-132-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:100:13-37
-133        <activity
-133-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:101:9-103:40
-134            android:name="com.ambitious.fghvendor.Activities.FoodBankHomeActivity"
-134-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:102:13-83
-135            android:exported="false" />
-135-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:103:13-37
-136        <activity
-136-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:104:9-106:40
-137            android:name="com.ambitious.fghvendor.Activities.FoodBankLoginActivity"
-137-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:105:13-84
-138            android:exported="false" />
-138-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:106:13-37
-139        <activity
-139-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:107:9-109:40
-140            android:name="com.ambitious.fghvendor.Activities.FoodBankProfileActivity"
-140-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:108:13-86
-141            android:exported="false" />
-141-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:109:13-37
-142        <activity
-142-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:110:9-112:40
-143            android:name="com.ambitious.fghvendor.Activities.FoodBankActivity"
-143-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:111:13-79
-144            android:exported="false" />
-144-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:112:13-37
-145        <activity
-145-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:113:9-115:40
-146            android:name="com.ambitious.fghvendor.Activities.SanitizationProfileActivity"
-146-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:114:13-90
-147            android:exported="false" />
-147-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:115:13-37
-148        <activity
-148-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:116:9-118:40
-149            android:name="com.ambitious.fghvendor.Activities.SanitizationHomeActivity"
-149-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:117:13-87
-150            android:exported="false" />
-150-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:118:13-37
-151        <activity
-151-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:119:9-121:40
-152            android:name="com.ambitious.fghvendor.Activities.SanitizationSignupActivity"
-152-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:120:13-89
-153            android:exported="false" />
-153-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:121:13-37
-154        <activity
-154-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:122:9-124:40
-155            android:name="com.ambitious.fghvendor.Activities.SanitizationLoginActivity"
-155-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:123:13-88
-156            android:exported="false" />
-156-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:124:13-37
-157        <activity
-157-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:125:9-127:40
-158            android:name="com.ambitious.fghvendor.Activities.SanitizationServiceActivity"
-158-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:126:13-90
-159            android:exported="false" />
-159-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:127:13-37
-160        <activity
-160-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:128:9-130:40
-161            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierSignupActivity"
-161-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:129:13-91
-162            android:exported="false" />
-162-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:130:13-37
-163        <activity
-163-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:131:9-133:40
-164            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierHomeActivity"
-164-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:132:13-89
-165            android:exported="false" />
-165-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:133:13-37
-166        <activity
-166-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:134:9-136:40
-167            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierLoginActivity"
-167-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:135:13-90
-168            android:exported="false" />
-168-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:136:13-37
-169        <activity
-169-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:137:9-139:40
-170            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierProfileActivity"
-170-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:138:13-92
-171            android:exported="false" />
-171-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:139:13-37
-172        <activity
-172-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:140:9-142:40
-173            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierActivity"
-173-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:141:13-85
-174            android:exported="false" />
-174-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:142:13-37
-175        <activity
-175-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:143:9-145:40
-176            android:name="com.ambitious.fghvendor.Activities.OxygenBankSignupActivity"
-176-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:144:13-87
-177            android:exported="false" />
-177-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:145:13-37
-178        <activity
-178-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:146:9-148:40
-179            android:name="com.ambitious.fghvendor.Activities.OxygenBankHomeActivity"
-179-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:147:13-85
-180            android:exported="false" />
-180-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:148:13-37
-181        <activity
-181-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:149:9-151:40
-182            android:name="com.ambitious.fghvendor.Activities.OxygenBankLoginActivity"
-182-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:150:13-86
-183            android:exported="false" />
-183-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:151:13-37
-184        <activity
-184-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:152:9-154:40
-185            android:name="com.ambitious.fghvendor.Activities.OxygenBankProfileActivity"
-185-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:153:13-88
-186            android:exported="false" />
-186-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:154:13-37
-187        <activity
-187-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:155:9-157:40
-188            android:name="com.ambitious.fghvendor.Activities.OxygenBankListActivity"
-188-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:156:13-85
-189            android:exported="false" />
-189-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:157:13-37
-190        <activity
-190-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:158:9-160:40
-191            android:name="com.ambitious.fghvendor.Activities.VideoViewActivity"
-191-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:159:13-80
-192            android:exported="false" />
-192-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:13-37
-193        <activity
-193-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:161:9-177:20
-194            android:name="com.ambitious.fghvendor.Activities.CovidWinnersActivity"
-194-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:13-83
-195            android:exported="true" >
-195-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:13-36
-196            <intent-filter
-196-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:164:13-176:29
-197                android:autoVerify="true"
-197-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:165:17-42
-198                android:label="@string/app_name" >
-198-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:166:17-49
-199                <action android:name="android.intent.action.VIEW" />
-199-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:17-69
-199-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:25-66
-200
-201                <category android:name="android.intent.category.DEFAULT" />
-201-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:17-76
-201-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:27-73
-202                <category android:name="android.intent.category.BROWSABLE" />
-202-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:17-78
-202-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:27-75
-203                <!-- https://fghdoctors.com/fitnessvideo/ -->
-204                <data
-204-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:17-175:46
-205                    android:host="fghdoctors.com"
-205-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:21-50
-206                    android:pathPrefix="/fitnessvideo"
-206-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:174:21-55
-207                    android:scheme="https" />
-207-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:21-43
-208            </intent-filter>
-209        </activity>
-210        <activity
-210-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:178:9-180:40
-211            android:name="com.ambitious.fghvendor.Activities.CovidServicesActivity"
-211-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:179:13-84
-212            android:exported="false" />
-212-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:180:13-37
-213        <activity
-213-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:181:9-183:40
-214            android:name="com.ambitious.fghvendor.Activities.AddNotificationActivity"
-214-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:182:13-86
-215            android:exported="false" />
-215-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:183:13-37
-216        <activity
-216-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:184:9-200:20
-217            android:name="com.ambitious.fghvendor.Activities.NotificationDetailActivity"
-217-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:185:13-89
-218            android:exported="true" >
-218-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:186:13-36
-219            <intent-filter
-219-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:187:13-199:29
-220                android:autoVerify="true"
-220-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:188:17-42
-221                android:label="@string/app_name" >
-221-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:189:17-49
-222                <action android:name="android.intent.action.VIEW" />
-222-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:17-69
-222-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:25-66
-223
-224                <category android:name="android.intent.category.DEFAULT" />
-224-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:17-76
-224-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:27-73
-225                <category android:name="android.intent.category.BROWSABLE" />
-225-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:17-78
-225-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:27-75
-226                <!-- http://fghdoctors.com/liveupdates/ -->
-227                <data
-227-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:17-175:46
-228                    android:host="fghdoctors.com"
-228-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:21-50
-229                    android:pathPrefix="/liveupdates"
-229-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:174:21-55
-230                    android:scheme="https" />
-230-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:21-43
-231            </intent-filter>
-232        </activity>
-233        <activity
-233-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:201:9-203:40
-234            android:name="com.ambitious.fghvendor.Activities.NotificationActivity"
-234-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:202:13-83
-235            android:exported="false" />
-235-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:203:13-37
-236        <activity
-236-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:204:9-206:40
-237            android:name="com.ambitious.fghvendor.Activities.WithdrawalActivity"
-237-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:205:13-81
-238            android:exported="false" />
-238-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:206:13-37
-239        <activity
-239-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:207:9-209:40
-240            android:name="com.ambitious.fghvendor.Activities.MyWalletActivity"
-240-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:208:13-79
-241            android:exported="false" />
-241-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:209:13-37
-242        <activity
-242-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:210:9-212:40
-243            android:name="com.ambitious.fghvendor.Activities.ReferActivity"
-243-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:211:13-76
-244            android:exported="false" />
-244-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:212:13-37
-245        <activity
-245-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:213:9-215:40
-246            android:name="com.ambitious.fghvendor.Activities.NewAppointmentCategoryListActivity"
-246-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:214:13-97
-247            android:exported="false" />
-247-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:215:13-37
-248        <activity
-248-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:216:9-218:40
-249            android:name="com.ambitious.fghvendor.Activities.ViewReviewsActivity"
-249-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:217:13-82
-250            android:exported="false" />
-250-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:218:13-37
-251        <activity
-251-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:219:9-221:40
-252            android:name="com.ambitious.fghvendor.Activities.AppointmentDetailActivity"
-252-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:220:13-88
-253            android:exported="false" />
-253-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:221:13-37
-254        <activity
-254-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:222:9-224:40
-255            android:name="com.ambitious.fghvendor.Activities.WebviewActivity"
-255-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:223:13-78
-256            android:exported="false" />
-256-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:224:13-37
-257        <activity
-257-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:225:9-227:40
-258            android:name="com.ambitious.fghvendor.Activities.ReportListActivity"
-258-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:226:13-81
-259            android:exported="false" />
-259-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:227:13-37
-260        <activity
-260-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:228:9-230:40
-261            android:name="com.ambitious.fghvendor.Activities.ReportsActivity"
-261-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:229:13-78
-262            android:exported="false" />
-262-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:230:13-37
-263        <activity
-263-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:231:9-233:40
-264            android:name="com.ambitious.fghvendor.Activities.LabUpdateActivity"
-264-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:232:13-80
-265            android:exported="false" />
-265-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:233:13-37
-266        <activity
-266-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:234:9-236:40
-267            android:name="com.ambitious.fghvendor.Activities.LabsProfileActivity"
-267-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:235:13-82
-268            android:exported="false" />
-268-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:236:13-37
-269        <activity
-269-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:237:9-239:40
-270            android:name="com.ambitious.fghvendor.Activities.LabsSignupActivity"
-270-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:238:13-81
-271            android:exported="false" />
-271-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:239:13-37
-272        <activity
-272-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:240:9-242:40
-273            android:name="com.ambitious.fghvendor.Activities.LabsHomeActivity"
-273-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:241:13-79
-274            android:exported="false" />
-274-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:242:13-37
-275        <activity
-275-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:243:9-245:40
-276            android:name="com.ambitious.fghvendor.Activities.LabLoginActivity"
-276-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:244:13-79
-277            android:exported="false" />
-277-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:245:13-37
-278        <activity
-278-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:246:9-248:40
-279            android:name="com.ambitious.fghvendor.Activities.LabListActivity"
-279-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:247:13-78
-280            android:exported="false" />
-280-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:248:13-37
-281        <activity
-281-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:249:9-251:40
-282            android:name="com.ambitious.fghvendor.Activities.RepresentativeBookingActivity"
-282-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:250:13-92
-283            android:exported="false" />
-283-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:251:13-37
-284        <activity
-284-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:252:9-254:40
-285            android:name="com.ambitious.fghvendor.Activities.VatinaryDoctorHomeActivity"
-285-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:253:13-89
-286            android:exported="false" />
-286-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:254:13-37
-287        <activity
-287-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:255:9-257:40
-288            android:name="com.ambitious.fghvendor.Activities.RMPDoctorHomeActivity"
-288-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:256:13-84
-289            android:exported="false" />
-289-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:257:13-37
-290        <activity
-290-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:258:9-260:40
-291            android:name="com.ambitious.fghvendor.Activities.VaterinaryUpdateActivity"
-291-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:259:13-87
-292            android:exported="false" />
-292-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:260:13-37
-293        <activity
-293-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:261:9-263:40
-294            android:name="com.ambitious.fghvendor.Activities.VaterinarySignupActivity"
-294-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:262:13-87
-295            android:exported="false" />
-295-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:263:13-37
-296        <activity
-296-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:264:9-266:40
-297            android:name="com.ambitious.fghvendor.Activities.VaterinaryLoginActivity"
-297-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:265:13-86
-298            android:exported="false" />
-298-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:266:13-37
-299        <activity
-299-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:267:9-269:40
-300            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorProfileActivity"
-300-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:268:13-94
-301            android:exported="false" />
-301-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:269:13-37
-302        <activity
-302-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:270:9-272:40
-303            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorListActivity"
-303-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:271:13-91
-304            android:exported="false" />
-304-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:272:13-37
-305        <activity
-305-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:273:9-275:40
-306            android:name="com.ambitious.fghvendor.Activities.RMPDoctorProfileActivity"
-306-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:274:13-87
-307            android:exported="false" />
-307-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:275:13-37
-308        <activity
-308-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:276:9-278:40
-309            android:name="com.ambitious.fghvendor.Activities.RMPUpateActivity"
-309-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:277:13-79
-310            android:exported="false" />
-310-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:278:13-37
-311        <activity
-311-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:279:9-281:40
-312            android:name="com.ambitious.fghvendor.Activities.RMPSignupActivity"
-312-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:280:13-80
-313            android:exported="false" />
-313-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:281:13-37
-314        <activity
-314-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:282:9-284:40
-315            android:name="com.ambitious.fghvendor.Activities.RMPLoginActivity"
-315-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:283:13-79
-316            android:exported="false" />
-316-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:284:13-37
-317        <activity
-317-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:285:9-287:40
-318            android:name="com.ambitious.fghvendor.Activities.RMPDoctorListActivity"
-318-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:286:13-84
-319            android:exported="false" />
-319-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:287:13-37
-320        <activity
-320-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:288:9-290:40
-321            android:name="com.ambitious.fghvendor.Activities.PatientDetailActivity"
-321-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:289:13-84
-322            android:exported="false" />
-322-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:290:13-37
+57    <application
+57-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:30:5-406:19
+58        android:allowBackup="true"
+58-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:31:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.3.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\c1d55b74461ac8bedced8a0777ac9d4e\core-1.3.0\AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:icon="@drawable/launcher"
+62-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:32:9-42
+63        android:label="@string/app_name"
+63-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:33:9-41
+64        android:networkSecurityConfig="@xml/network_security_config"
+64-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:34:9-69
+65        android:requestLegacyExternalStorage="true"
+65-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:35:9-52
+66        android:roundIcon="@drawable/launcher"
+66-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:36:9-47
+67        android:supportsRtl="true"
+67-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:37:9-35
+68        android:theme="@style/AppTheme" >
+68-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:38:9-40
+69        <activity
+69-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:40:9-42:39
+70            android:name="com.ambitious.fghvendor.Activities.QrCodeActivity"
+70-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:41:13-77
+71            android:exported="true" />
+71-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:42:13-36
+72        <activity
+72-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:43:9-45:39
+73            android:name="com.ambitious.fghvendor.Activities.PaidSuccessActivity"
+73-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:44:13-82
+74            android:exported="true" />
+74-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:45:13-36
+75        <activity
+75-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:46:9-48:39
+76            android:name="com.ambitious.fghvendor.Activities.PaymentHistoryActivity"
+76-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:47:13-85
+77            android:exported="true" />
+77-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:48:13-36
+78        <activity
+78-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:49:9-51:39
+79            android:name="com.ambitious.fghvendor.Activities.MarketPriceHomeActivity"
+79-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:50:13-86
+80            android:exported="true" />
+80-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:51:13-36
+81        <activity
+81-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:52:9-54:39
+82            android:name="com.ambitious.fghvendor.Activities.BankDetailsActivity"
+82-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:53:13-82
+83            android:exported="true" />
+83-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:54:13-36
+84        <activity
+84-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:55:9-57:39
+85            android:name="com.ambitious.fghvendor.Activities.MarketPricesSignupActivity"
+85-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:56:13-89
+86            android:exported="true" />
+86-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:57:13-36
+87        <activity
+87-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:58:9-60:39
+88            android:name="com.ambitious.fghvendor.Activities.MarketPricesLoginActivity"
+88-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:59:13-88
+89            android:exported="true" />
+89-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:60:13-36
+90        <activity
+90-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:61:9-63:39
+91            android:name="com.ambitious.fghvendor.Activities.MarketPricesActivity"
+91-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:62:13-83
+92            android:exported="true" />
+92-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:63:13-36
+93        <activity
+93-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:64:9-66:39
+94            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyHomeActivity"
+94-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:65:13-86
+95            android:exported="true" />
+95-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:66:13-36
+96        <activity
+96-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:67:9-69:39
+97            android:name="com.ambitious.fghvendor.Activities.DeliveryBoySignupActivity"
+97-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:68:13-88
+98            android:exported="true" />
+98-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:69:13-36
+99        <activity
+99-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:70:9-72:39
+100            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyProfileActivity"
+100-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:71:13-89
+101            android:exported="true" />
+101-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:72:13-36
+102        <activity
+102-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:73:9-75:39
+103            android:name="com.ambitious.fghvendor.Activities.DeloveryBoyLoginActivity"
+103-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:74:13-87
+104            android:exported="true" />
+104-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:75:13-36
+105        <activity
+105-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:76:9-78:39
+106            android:name="com.ambitious.fghvendor.Activities.DeliveryBoyActivity"
+106-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:77:13-82
+107            android:exported="true" />
+107-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:78:13-36
+108        <activity
+108-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:79:9-81:39
+109            android:name="com.ambitious.fghvendor.Activities.VehicleSignupActivity"
+109-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:80:13-84
+110            android:exported="true" />
+110-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:81:13-36
+111        <activity
+111-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:82:9-84:39
+112            android:name="com.ambitious.fghvendor.Activities.VehicleHomeActivity"
+112-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:83:13-82
+113            android:exported="true" />
+113-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:84:13-36
+114        <activity
+114-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:85:9-87:39
+115            android:name="com.ambitious.fghvendor.Activities.VehicleLoginActivity"
+115-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:86:13-83
+116            android:exported="true" />
+116-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:87:13-36
+117        <activity
+117-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:88:9-90:39
+118            android:name="com.ambitious.fghvendor.Activities.VehiclesActivity"
+118-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:89:13-79
+119            android:exported="true" />
+119-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:90:13-36
+120        <activity
+120-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:91:9-93:39
+121            android:name="com.ambitious.fghvendor.Activities.FoodBankSignupActivity"
+121-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:92:13-85
+122            android:exported="true" />
+122-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:93:13-36
+123        <activity
+123-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:94:9-96:39
+124            android:name="com.ambitious.fghvendor.Activities.FoodBankHomeActivity"
+124-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:95:13-83
+125            android:exported="true" />
+125-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:96:13-36
+126        <activity
+126-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:97:9-99:39
+127            android:name="com.ambitious.fghvendor.Activities.FoodBankLoginActivity"
+127-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:98:13-84
+128            android:exported="true" />
+128-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:99:13-36
+129        <activity
+129-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:100:9-102:39
+130            android:name="com.ambitious.fghvendor.Activities.FoodBankProfileActivity"
+130-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:101:13-86
+131            android:exported="true" />
+131-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:102:13-36
+132        <activity
+132-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:103:9-105:39
+133            android:name="com.ambitious.fghvendor.Activities.FoodBankActivity"
+133-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:104:13-79
+134            android:exported="true" />
+134-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:105:13-36
+135        <activity
+135-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:106:9-108:39
+136            android:name="com.ambitious.fghvendor.Activities.SanitizationProfileActivity"
+136-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:107:13-90
+137            android:exported="true" />
+137-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:108:13-36
+138        <activity
+138-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:109:9-111:39
+139            android:name="com.ambitious.fghvendor.Activities.SanitizationHomeActivity"
+139-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:110:13-87
+140            android:exported="true" />
+140-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:111:13-36
+141        <activity
+141-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:112:9-114:39
+142            android:name="com.ambitious.fghvendor.Activities.SanitizationSignupActivity"
+142-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:113:13-89
+143            android:exported="true" />
+143-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:114:13-36
+144        <activity
+144-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:115:9-117:39
+145            android:name="com.ambitious.fghvendor.Activities.SanitizationLoginActivity"
+145-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:116:13-88
+146            android:exported="true" />
+146-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:117:13-36
+147        <activity
+147-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:118:9-120:39
+148            android:name="com.ambitious.fghvendor.Activities.SanitizationServiceActivity"
+148-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:119:13-90
+149            android:exported="true" />
+149-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:120:13-36
+150        <activity
+150-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:121:9-123:39
+151            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierSignupActivity"
+151-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:122:13-91
+152            android:exported="true" />
+152-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:123:13-36
+153        <activity
+153-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:124:9-126:39
+154            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierHomeActivity"
+154-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:125:13-89
+155            android:exported="true" />
+155-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:126:13-36
+156        <activity
+156-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:127:9-129:39
+157            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierLoginActivity"
+157-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:128:13-90
+158            android:exported="true" />
+158-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:129:13-36
+159        <activity
+159-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:130:9-132:39
+160            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierProfileActivity"
+160-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:131:13-92
+161            android:exported="true" />
+161-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:132:13-36
+162        <activity
+162-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:133:9-135:39
+163            android:name="com.ambitious.fghvendor.Activities.HelpingSoldierActivity"
+163-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:134:13-85
+164            android:exported="true" />
+164-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:135:13-36
+165        <activity
+165-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:136:9-138:39
+166            android:name="com.ambitious.fghvendor.Activities.OxygenBankSignupActivity"
+166-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:137:13-87
+167            android:exported="true" />
+167-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:138:13-36
+168        <activity
+168-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:139:9-141:39
+169            android:name="com.ambitious.fghvendor.Activities.OxygenBankHomeActivity"
+169-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:140:13-85
+170            android:exported="true" />
+170-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:141:13-36
+171        <activity
+171-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:142:9-144:39
+172            android:name="com.ambitious.fghvendor.Activities.OxygenBankLoginActivity"
+172-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:143:13-86
+173            android:exported="true" />
+173-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:144:13-36
+174        <activity
+174-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:145:9-147:39
+175            android:name="com.ambitious.fghvendor.Activities.OxygenBankProfileActivity"
+175-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:146:13-88
+176            android:exported="true" />
+176-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:147:13-36
+177        <activity
+177-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:148:9-150:39
+178            android:name="com.ambitious.fghvendor.Activities.OxygenBankListActivity"
+178-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:149:13-85
+179            android:exported="true" />
+179-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:150:13-36
+180        <activity
+180-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:151:9-153:39
+181            android:name="com.ambitious.fghvendor.Activities.VideoViewActivity"
+181-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:152:13-80
+182            android:exported="true" />
+182-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:153:13-36
+183        <activity
+183-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:154:9-170:20
+184            android:name="com.ambitious.fghvendor.Activities.CovidWinnersActivity"
+184-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:155:13-83
+185            android:exported="true" >
+185-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:156:13-36
+186            <intent-filter
+186-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:157:13-169:29
+187                android:autoVerify="true"
+187-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:158:17-42
+188                android:label="@string/app_name" >
+188-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:159:17-49
+189                <action android:name="android.intent.action.VIEW" />
+189-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:17-69
+189-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:25-66
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:17-76
+191-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:27-73
+192                <category android:name="android.intent.category.BROWSABLE" />
+192-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:17-78
+192-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:27-75
+193                <!-- https://fghdoctors.com/fitnessvideo/ -->
+194                <data
+194-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:165:17-168:46
+195                    android:host="fghdoctors.com"
+195-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:166:21-50
+196                    android:pathPrefix="/fitnessvideo"
+196-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:21-55
+197                    android:scheme="https" />
+197-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:168:21-43
+198            </intent-filter>
+199        </activity>
+200        <activity
+200-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:171:9-173:39
+201            android:name="com.ambitious.fghvendor.Activities.CovidServicesActivity"
+201-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:13-84
+202            android:exported="true" />
+202-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:13-36
+203        <activity
+203-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:174:9-176:39
+204            android:name="com.ambitious.fghvendor.Activities.AddNotificationActivity"
+204-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:13-86
+205            android:exported="true" />
+205-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:176:13-36
+206        <activity
+206-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:177:9-193:20
+207            android:name="com.ambitious.fghvendor.Activities.NotificationDetailActivity"
+207-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:178:13-89
+208            android:exported="true" >
+208-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:179:13-36
+209            <intent-filter
+209-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:180:13-192:29
+210                android:autoVerify="true"
+210-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:181:17-42
+211                android:label="@string/app_name" >
+211-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:182:17-49
+212                <action android:name="android.intent.action.VIEW" />
+212-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:17-69
+212-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:25-66
+213
+214                <category android:name="android.intent.category.DEFAULT" />
+214-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:17-76
+214-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:27-73
+215                <category android:name="android.intent.category.BROWSABLE" />
+215-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:17-78
+215-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:27-75
+216                <!-- http://fghdoctors.com/liveupdates/ -->
+217                <data
+217-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:165:17-168:46
+218                    android:host="fghdoctors.com"
+218-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:166:21-50
+219                    android:pathPrefix="/liveupdates"
+219-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:21-55
+220                    android:scheme="https" />
+220-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:168:21-43
+221            </intent-filter>
+222        </activity>
+223        <activity
+223-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:194:9-196:39
+224            android:name="com.ambitious.fghvendor.Activities.NotificationActivity"
+224-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:195:13-83
+225            android:exported="true" />
+225-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:196:13-36
+226        <activity
+226-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:197:9-199:39
+227            android:name="com.ambitious.fghvendor.Activities.ReferActivity"
+227-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:198:13-76
+228            android:exported="true" />
+228-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:199:13-36
+229        <activity
+229-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:200:9-202:39
+230            android:name="com.ambitious.fghvendor.Activities.NewAppointmentCategoryListActivity"
+230-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:201:13-97
+231            android:exported="true" />
+231-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:202:13-36
+232        <activity
+232-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:203:9-205:39
+233            android:name="com.ambitious.fghvendor.Activities.ViewReviewsActivity"
+233-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:204:13-82
+234            android:exported="true" />
+234-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:205:13-36
+235        <activity
+235-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:206:9-208:39
+236            android:name="com.ambitious.fghvendor.Activities.AppointmentDetailActivity"
+236-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:207:13-88
+237            android:exported="true" />
+237-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:208:13-36
+238        <activity
+238-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:209:9-211:39
+239            android:name="com.ambitious.fghvendor.Activities.WebviewActivity"
+239-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:210:13-78
+240            android:exported="true" />
+240-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:211:13-36
+241        <activity
+241-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:212:9-214:39
+242            android:name="com.ambitious.fghvendor.Activities.ReportListActivity"
+242-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:213:13-81
+243            android:exported="true" />
+243-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:214:13-36
+244        <activity
+244-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:215:9-217:39
+245            android:name="com.ambitious.fghvendor.Activities.ReportsActivity"
+245-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:216:13-78
+246            android:exported="true" />
+246-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:217:13-36
+247        <activity
+247-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:218:9-220:39
+248            android:name="com.ambitious.fghvendor.Activities.LabUpdateActivity"
+248-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:219:13-80
+249            android:exported="true" />
+249-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:220:13-36
+250        <activity
+250-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:221:9-223:39
+251            android:name="com.ambitious.fghvendor.Activities.LabsProfileActivity"
+251-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:222:13-82
+252            android:exported="true" />
+252-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:223:13-36
+253        <activity
+253-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:224:9-226:39
+254            android:name="com.ambitious.fghvendor.Activities.LabsSignupActivity"
+254-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:225:13-81
+255            android:exported="true" />
+255-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:226:13-36
+256        <activity
+256-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:227:9-229:39
+257            android:name="com.ambitious.fghvendor.Activities.LabsHomeActivity"
+257-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:228:13-79
+258            android:exported="true" />
+258-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:229:13-36
+259        <activity
+259-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:230:9-232:39
+260            android:name="com.ambitious.fghvendor.Activities.LabLoginActivity"
+260-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:231:13-79
+261            android:exported="true" />
+261-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:232:13-36
+262        <activity
+262-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:233:9-235:39
+263            android:name="com.ambitious.fghvendor.Activities.LabListActivity"
+263-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:234:13-78
+264            android:exported="true" />
+264-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:235:13-36
+265        <activity
+265-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:236:9-238:39
+266            android:name="com.ambitious.fghvendor.Activities.RepresentativeBookingActivity"
+266-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:237:13-92
+267            android:exported="true" />
+267-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:238:13-36
+268        <activity
+268-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:239:9-241:39
+269            android:name="com.ambitious.fghvendor.Activities.VatinaryDoctorHomeActivity"
+269-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:240:13-89
+270            android:exported="true" />
+270-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:241:13-36
+271        <activity
+271-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:242:9-244:39
+272            android:name="com.ambitious.fghvendor.Activities.RMPDoctorHomeActivity"
+272-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:243:13-84
+273            android:exported="true" />
+273-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:244:13-36
+274        <activity
+274-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:245:9-247:39
+275            android:name="com.ambitious.fghvendor.Activities.VaterinaryUpdateActivity"
+275-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:246:13-87
+276            android:exported="true" />
+276-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:247:13-36
+277        <activity
+277-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:248:9-250:39
+278            android:name="com.ambitious.fghvendor.Activities.VaterinarySignupActivity"
+278-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:249:13-87
+279            android:exported="true" />
+279-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:250:13-36
+280        <activity
+280-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:251:9-253:39
+281            android:name="com.ambitious.fghvendor.Activities.VaterinaryLoginActivity"
+281-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:252:13-86
+282            android:exported="true" />
+282-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:253:13-36
+283        <activity
+283-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:254:9-256:39
+284            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorProfileActivity"
+284-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:255:13-94
+285            android:exported="true" />
+285-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:256:13-36
+286        <activity
+286-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:257:9-259:39
+287            android:name="com.ambitious.fghvendor.Activities.VaterinaryDoctorListActivity"
+287-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:258:13-91
+288            android:exported="true" />
+288-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:259:13-36
+289        <activity
+289-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:260:9-262:39
+290            android:name="com.ambitious.fghvendor.Activities.RMPDoctorProfileActivity"
+290-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:261:13-87
+291            android:exported="true" />
+291-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:262:13-36
+292        <activity
+292-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:263:9-265:39
+293            android:name="com.ambitious.fghvendor.Activities.RMPUpateActivity"
+293-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:264:13-79
+294            android:exported="true" />
+294-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:265:13-36
+295        <activity
+295-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:266:9-268:39
+296            android:name="com.ambitious.fghvendor.Activities.RMPSignupActivity"
+296-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:267:13-80
+297            android:exported="true" />
+297-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:268:13-36
+298        <activity
+298-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:269:9-271:39
+299            android:name="com.ambitious.fghvendor.Activities.RMPLoginActivity"
+299-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:270:13-79
+300            android:exported="true" />
+300-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:271:13-36
+301        <activity
+301-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:272:9-274:39
+302            android:name="com.ambitious.fghvendor.Activities.RMPDoctorListActivity"
+302-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:273:13-84
+303            android:exported="true" />
+303-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:274:13-36
+304        <activity
+304-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:275:9-277:39
+305            android:name="com.ambitious.fghvendor.Activities.PatientDetailActivity"
+305-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:276:13-84
+306            android:exported="true" />
+306-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:277:13-36
+307        <activity
+307-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:278:9-280:39
+308            android:name="com.ambitious.fghvendor.Activities.AddPatientActivity"
+308-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:279:13-81
+309            android:exported="true" />
+309-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:280:13-36
+310        <activity
+310-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:281:9-283:39
+311            android:name="com.ambitious.fghvendor.Activities.PatientListActivity"
+311-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:282:13-82
+312            android:exported="true" />
+312-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:283:13-36
+313        <activity
+313-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:284:9-286:39
+314            android:name="com.ambitious.fghvendor.Activities.MedicalHomeActivity"
+314-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:285:13-82
+315            android:exported="true" />
+315-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:286:13-36
+316        <activity
+316-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:287:9-289:39
+317            android:name="com.ambitious.fghvendor.Activities.BloodBankHomeActivity"
+317-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:288:13-84
+318            android:exported="true" />
+318-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:289:13-36
+319        <activity
+319-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:290:9-293:58
+320            android:name="com.ambitious.fghvendor.Activities.BloodDonorHomeActivity"
+320-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:291:13-85
+321            android:exported="true"
+321-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:292:13-36
+322            android:windowSoftInputMode="adjustResize" />
+322-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:293:13-55
 323        <activity
-323-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:291:9-293:40
-324            android:name="com.ambitious.fghvendor.Activities.AddPatientActivity"
-324-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:292:13-81
-325            android:exported="false" />
-325-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:293:13-37
+323-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:294:9-296:39
+324            android:name="com.ambitious.fghvendor.Activities.AmbulanceHomeActivity"
+324-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:295:13-84
+325            android:exported="true" />
+325-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:296:13-36
 326        <activity
-326-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:294:9-296:40
-327            android:name="com.ambitious.fghvendor.Activities.PatientListActivity"
-327-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:295:13-82
-328            android:exported="false" />
-328-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:296:13-37
+326-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:297:9-299:39
+327            android:name="com.ambitious.fghvendor.Activities.UserProfileActivity"
+327-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:298:13-82
+328            android:exported="true" />
+328-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:299:13-36
 329        <activity
-329-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:297:9-299:40
-330            android:name="com.ambitious.fghvendor.Activities.MedicalHomeActivity"
-330-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:298:13-82
-331            android:exported="false" />
-331-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:299:13-37
-332        <activity
-332-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:300:9-302:40
-333            android:name="com.ambitious.fghvendor.Activities.BloodBankHomeActivity"
-333-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:301:13-84
-334            android:exported="false" />
-334-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:302:13-37
-335        <activity
-335-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:303:9-306:58
-336            android:name="com.ambitious.fghvendor.Activities.BloodDonorHomeActivity"
-336-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:304:13-85
-337            android:exported="false"
-337-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:305:13-37
-338            android:windowSoftInputMode="adjustResize" />
-338-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:306:13-55
-339        <activity
-339-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:307:9-309:40
-340            android:name="com.ambitious.fghvendor.Activities.AmbulanceHomeActivity"
-340-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:308:13-84
-341            android:exported="false" />
-341-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:309:13-37
-342        <activity
-342-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:310:9-312:40
-343            android:name="com.ambitious.fghvendor.Activities.UserProfileActivity"
-343-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:311:13-82
-344            android:exported="false" />
-344-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:312:13-37
-345        <activity
-345-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:313:9-316:58
-346            android:name="com.ambitious.fghvendor.Activities.MedicalShopSignupActivity"
-346-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:314:13-88
-347            android:exported="false"
-347-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:315:13-37
-348            android:windowSoftInputMode="adjustResize" />
-348-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:316:13-55
-349        <activity
-349-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:317:9-319:40
-350            android:name="com.ambitious.fghvendor.Activities.MedicalShopLoginActivity"
-350-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:318:13-87
-351            android:exported="false" />
-351-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:319:13-37
-352        <activity
-352-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:320:9-323:58
-353            android:name="com.ambitious.fghvendor.Activities.BloodBankSignupActivity"
-353-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:321:13-86
-354            android:exported="false"
-354-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:322:13-37
-355            android:windowSoftInputMode="adjustResize" />
-355-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:323:13-55
-356        <activity
-356-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:324:9-327:58
-357            android:name="com.ambitious.fghvendor.Activities.DonorSignupActivity"
-357-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:325:13-82
-358            android:exported="false"
-358-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:326:13-37
-359            android:windowSoftInputMode="adjustResize" />
-359-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:327:13-55
+329-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:300:9-303:58
+330            android:name="com.ambitious.fghvendor.Activities.MedicalShopSignupActivity"
+330-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:301:13-88
+331            android:exported="true"
+331-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:302:13-36
+332            android:windowSoftInputMode="adjustResize" />
+332-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:303:13-55
+333        <activity
+333-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:304:9-306:39
+334            android:name="com.ambitious.fghvendor.Activities.MedicalShopLoginActivity"
+334-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:305:13-87
+335            android:exported="true" />
+335-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:306:13-36
+336        <activity
+336-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:307:9-310:58
+337            android:name="com.ambitious.fghvendor.Activities.BloodBankSignupActivity"
+337-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:308:13-86
+338            android:exported="true"
+338-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:309:13-36
+339            android:windowSoftInputMode="adjustResize" />
+339-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:310:13-55
+340        <activity
+340-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:311:9-314:58
+341            android:name="com.ambitious.fghvendor.Activities.DonorSignupActivity"
+341-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:312:13-82
+342            android:exported="true"
+342-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:313:13-36
+343            android:windowSoftInputMode="adjustResize" />
+343-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:314:13-55
+344        <activity
+344-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:315:9-317:39
+345            android:name="com.ambitious.fghvendor.Activities.BloodBankLoginActivity"
+345-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:316:13-85
+346            android:exported="true" />
+346-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:317:13-36
+347        <activity
+347-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:318:9-320:39
+348            android:name="com.ambitious.fghvendor.Activities.DonorLoginActivity"
+348-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:319:13-81
+349            android:exported="true" />
+349-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:320:13-36
+350        <activity
+350-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:321:9-324:58
+351            android:name="com.ambitious.fghvendor.Activities.AmbulanceSignupActivity"
+351-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:322:13-86
+352            android:exported="true"
+352-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:323:13-36
+353            android:windowSoftInputMode="adjustResize" />
+353-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:324:13-55
+354        <activity
+354-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:325:9-327:39
+355            android:name="com.ambitious.fghvendor.Activities.AmbulanceLoginActivity"
+355-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:326:13-85
+356            android:exported="true" />
+356-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:327:13-36
+357        <activity
+357-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:328:9-330:39
+358            android:name="com.ambitious.fghvendor.Activities.DoctorListActivity"
+358-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:329:13-81
+359            android:exported="true" />
+359-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:330:13-36
 360        <activity
-360-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:328:9-330:40
-361            android:name="com.ambitious.fghvendor.Activities.BloodBankLoginActivity"
-361-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:329:13-85
-362            android:exported="false" />
-362-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:330:13-37
+360-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:331:9-333:39
+361            android:name="com.ambitious.fghvendor.Activities.AppointmentCategoryListActivity"
+361-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:332:13-94
+362            android:exported="true" />
+362-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:333:13-36
 363        <activity
-363-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:331:9-333:40
-364            android:name="com.ambitious.fghvendor.Activities.DonorLoginActivity"
-364-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:332:13-81
-365            android:exported="false" />
-365-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:333:13-37
+363-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:334:9-336:39
+364            android:name="com.ambitious.fghvendor.Activities.MedicalShopListActivity"
+364-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:335:13-86
+365            android:exported="true" />
+365-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:336:13-36
 366        <activity
-366-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:334:9-337:58
-367            android:name="com.ambitious.fghvendor.Activities.AmbulanceSignupActivity"
-367-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:335:13-86
-368            android:exported="false"
-368-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:336:13-37
-369            android:windowSoftInputMode="adjustResize" />
-369-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:337:13-55
-370        <activity
-370-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:338:9-340:40
-371            android:name="com.ambitious.fghvendor.Activities.AmbulanceLoginActivity"
-371-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:339:13-85
-372            android:exported="false" />
-372-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:340:13-37
-373        <activity
-373-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:341:9-344:58
-374            android:name="com.ambitious.fghvendor.Activities.DoctorProfileActivity"
-374-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:342:13-84
-375            android:exported="false"
-375-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:343:13-37
-376            android:windowSoftInputMode="adjustResize" />
-376-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:344:13-55
-377        <activity
-377-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:345:9-347:40
-378            android:name="com.ambitious.fghvendor.Activities.DoctorListActivity"
-378-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:346:13-81
-379            android:exported="false" />
-379-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:347:13-37
-380        <activity
-380-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:348:9-350:40
-381            android:name="com.ambitious.fghvendor.Activities.AppointmentCategoryListActivity"
-381-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:349:13-94
-382            android:exported="false" />
-382-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:350:13-37
-383        <activity
-383-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:351:9-353:40
-384            android:name="com.ambitious.fghvendor.Activities.MedicalShopProfileActivity"
-384-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:352:13-89
-385            android:exported="false" />
-385-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:353:13-37
-386        <activity
-386-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:354:9-356:40
-387            android:name="com.ambitious.fghvendor.Activities.MedicalShopListActivity"
-387-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:355:13-86
-388            android:exported="false" />
-388-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:356:13-37
-389        <activity
-389-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:357:9-359:40
-390            android:name="com.ambitious.fghvendor.Activities.BloodDonorProfileActivity"
-390-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:358:13-88
-391            android:exported="false" />
-391-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:359:13-37
-392        <activity
-392-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:360:9-362:40
-393            android:name="com.ambitious.fghvendor.Activities.BloodBankProfileActivity"
-393-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:361:13-87
-394            android:exported="false" />
-394-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:362:13-37
-395        <activity
-395-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:363:9-365:40
-396            android:name="com.ambitious.fghvendor.Activities.BloodListActivity"
-396-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:364:13-80
-397            android:exported="false" />
-397-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:365:13-37
-398        <activity
-398-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:366:9-368:40
-399            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverProfileActivity"
-399-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:367:13-93
-400            android:exported="false" />
-400-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:368:13-37
-401        <activity
-401-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:369:9-371:40
-402            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverListActivity"
-402-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:13-90
-403            android:exported="false" />
-403-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:371:13-37
-404        <activity
-404-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:9-374:40
-405            android:name="com.ambitious.fghvendor.Activities.AmbulanceListActivity"
-405-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:373:13-84
-406            android:exported="false" />
-406-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:374:13-37
-407        <activity
-407-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:375:9-377:40
-408            android:name="com.ambitious.fghvendor.Activities.HomeActivity"
-408-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:376:13-75
-409            android:exported="false" />
-409-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:377:13-37
-410        <activity
-410-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:378:9-382:57
-411            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-411-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:379:13-74
-412            android:clearTaskOnLaunch="true"
-412-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
-413            android:screenOrientation="portrait"
-413-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:380:13-49
-414            android:stateNotNeeded="true"
-414-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:381:13-42
-415            android:theme="@style/zxing_CaptureTheme"
-415-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
-416            android:windowSoftInputMode="stateAlwaysHidden" />
-416-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
-417        <activity
-417-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:383:9-385:40
-418            android:name="com.ambitious.fghvendor.Activities.SignupActivity"
-418-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:13-77
-419            android:exported="false" />
-419-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:385:13-37
-420        <activity
-420-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:386:9-388:40
-421            android:name="com.ambitious.fghvendor.Activities.LoginActivity"
-421-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:387:13-76
-422            android:exported="false" />
-422-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:388:13-37
-423        <activity
-423-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:389:9-397:20
-424            android:name="com.ambitious.fghvendor.Activities.SplashActivity"
-424-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:390:13-77
-425            android:exported="true" >
-425-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:391:13-36
-426            <intent-filter>
-426-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:392:13-396:29
-427                <action android:name="android.intent.action.MAIN" />
-427-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:393:17-69
-427-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:393:25-66
-428
-429                <category android:name="android.intent.category.LAUNCHER" />
-429-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:395:17-77
-429-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:395:27-74
-430            </intent-filter>
-431        </activity>
+366-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:337:9-339:39
+367            android:name="com.ambitious.fghvendor.Activities.BloodDonorProfileActivity"
+367-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:338:13-88
+368            android:exported="true" />
+368-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:339:13-36
+369        <activity
+369-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:340:9-342:39
+370            android:name="com.ambitious.fghvendor.Activities.BloodListActivity"
+370-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:341:13-80
+371            android:exported="true" />
+371-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:342:13-36
+372        <activity
+372-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:343:9-345:39
+373            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverProfileActivity"
+373-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:344:13-93
+374            android:exported="true" />
+374-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:345:13-36
+375        <activity
+375-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:346:9-348:39
+376            android:name="com.ambitious.fghvendor.Activities.AmbulanceDriverListActivity"
+376-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:347:13-90
+377            android:exported="true" />
+377-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:348:13-36
+378        <activity
+378-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:349:9-351:39
+379            android:name="com.ambitious.fghvendor.Activities.AmbulanceListActivity"
+379-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:350:13-84
+380            android:exported="true" />
+380-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:351:13-36
+381        <activity
+381-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:352:9-354:39
+382            android:name="com.ambitious.fghvendor.Activities.HomeActivity"
+382-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:353:13-75
+383            android:exported="true" />
+383-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:354:13-36
+384        <activity
+384-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:355:9-359:57
+385            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+385-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:356:13-74
+386            android:clearTaskOnLaunch="true"
+386-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+387            android:screenOrientation="portrait"
+387-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:357:13-49
+388            android:stateNotNeeded="true"
+388-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:358:13-42
+389            android:theme="@style/zxing_CaptureTheme"
+389-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+390            android:windowSoftInputMode="stateAlwaysHidden" />
+390-->[com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+391        <activity
+391-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:360:9-362:39
+392            android:name="com.ambitious.fghvendor.Activities.SignupActivity"
+392-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:361:13-77
+393            android:exported="true" />
+393-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:362:13-36
+394        <activity
+394-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:363:9-365:39
+395            android:name="com.ambitious.fghvendor.Activities.LoginActivity"
+395-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:364:13-76
+396            android:exported="true" />
+396-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:365:13-36
+397        <activity
+397-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:366:9-374:20
+398            android:name="com.ambitious.fghvendor.Activities.SplashActivity"
+398-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:367:13-77
+399            android:exported="true" >
+399-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:368:13-36
+400            <intent-filter>
+400-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:369:13-373:29
+401                <action android:name="android.intent.action.MAIN" />
+401-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:17-69
+401-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:25-66
+402
+403                <category android:name="android.intent.category.LAUNCHER" />
+403-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:17-77
+403-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:27-74
+404            </intent-filter>
+405        </activity>
+406
+407        <meta-data
+407-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:376:9-378:55
+408            android:name="com.razorpay.ApiKey"
+408-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:377:13-47
+409            android:value="rzp_live_RQHd0NAHrcy1R9" />
+409-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:378:13-52
+410
+411        <service
+411-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:380:9-386:19
+412            android:name="com.ambitious.fghvendor.Services.MyFirebaseMessagingService"
+412-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:381:13-87
+413            android:exported="true" >
+413-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:382:13-36
+414            <intent-filter>
+414-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:383:13-385:29
+415                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+415-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:17-78
+415-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:25-75
+416            </intent-filter>
+417        </service>
+418        <service
+418-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:387:9-394:19
+419            android:name="com.ambitious.fghvendor.Services.MyFirebaseInstanceIDService"
+419-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:388:13-88
+420            android:exported="true" >
+420-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:389:13-36
+421            <intent-filter>
+421-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:391:13-393:29
+422                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+422-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:392:17-80
+422-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:392:25-77
+423            </intent-filter>
+424        </service>
+425
+426        <receiver
+426-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:396:9-405:20
+427            android:name="com.ambitious.fghvendor.Services.BroadcastNotiReceiver"
+427-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:397:13-82
+428            android:enabled="true"
+428-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:398:13-35
+429            android:exported="true" >
+429-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:399:13-36
+430            <intent-filter>
+430-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:400:13-404:29
+431                <action android:name="android.intent.action.BOOT_COMPLETED" />
+431-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:401:17-79
+431-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:401:25-76
 432
-433        <meta-data
-433-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:399:9-401:55
-434            android:name="com.razorpay.ApiKey"
-434-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:400:13-47
-435            android:value="rzp_live_RQHd0NAHrcy1R9" />
-435-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:401:13-52
+433                <category android:name="android.intent.category.DEFAULT" />
+433-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:17-76
+433-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:27-73
+434            </intent-filter>
+435        </receiver>
 436
-437        <service
-437-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:403:9-409:19
-438            android:name="com.ambitious.fghvendor.Services.MyFirebaseMessagingService"
-438-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:404:13-87
-439            android:exported="false" >
-439-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:405:13-37
-440            <intent-filter>
-440-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:406:13-408:29
-441                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-441-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:407:17-78
-441-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:407:25-75
-442            </intent-filter>
-443        </service>
-444        <service
-444-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:410:9-416:19
-445            android:name="com.ambitious.fghvendor.Services.MyFirebaseInstanceIDService"
-445-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:411:13-88
-446            android:exported="false" >
-446-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:412:13-37
-447            <intent-filter>
-447-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:413:13-415:29
-448                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-448-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:414:17-80
-448-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:414:25-77
-449            </intent-filter>
-450        </service>
-451
-452        <receiver
-452-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:418:9-427:20
-453            android:name="com.ambitious.fghvendor.Services.BroadcastNotiReceiver"
-453-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:419:13-82
-454            android:enabled="true"
-454-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:420:13-35
-455            android:exported="false" >
-455-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:421:13-37
-456            <intent-filter>
-456-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:422:13-426:29
-457                <action android:name="android.intent.action.BOOT_COMPLETED" />
-457-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:423:17-79
-457-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:423:25-76
-458
-459                <category android:name="android.intent.category.DEFAULT" />
-459-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:17-76
-459-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:27-73
-460            </intent-filter>
-461        </receiver>
-462
-463        <activity
-463-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
-464            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
-464-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
-465            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-465-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
-466
-467        <provider
-467-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
-468            android:name="androidx.core.content.FileProvider"
-468-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
-469            android:authorities="com.ambitious.fghvendor.provider"
-469-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
-470            android:exported="false"
-470-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
-471            android:grantUriPermissions="true" >
-471-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
-472            <meta-data
-472-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
-473                android:name="android.support.FILE_PROVIDER_PATHS"
-473-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
-474                android:resource="@xml/provider_paths" />
-474-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
-475        </provider>
-476
-477        <receiver android:name="com.razorpay.RzpTokenReceiver" >
-477-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:12:9-16:20
-477-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:12:19-63
-478            <intent-filter>
-478-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:13:13-15:29
-479                <action android:name="rzp.device_token.share" />
-479-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:14:17-65
-479-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:14:25-62
-480            </intent-filter>
-481        </receiver>
-482
-483        <activity
-483-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:18:9-29:20
-484            android:name="com.razorpay.CheckoutActivity"
-484-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:19:13-57
-485            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-485-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:20:13-83
-486            android:theme="@style/CheckoutTheme" >
-486-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:21:13-49
-487            <intent-filter>
-487-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:22:13-28:29
-488                <action android:name="android.intent.action.MAIN" />
-488-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:393:17-69
-488-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:393:25-66
-489
-490                <data
-490-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:17-175:46
-491                    android:host="rzp.io"
-491-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:21-50
-492                    android:scheme="io.rzp" />
-492-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:21-43
-493            </intent-filter>
-494        </activity>
-495
-496        <meta-data
-496-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:31:9-33:58
-497            android:name="com.razorpay.plugin.googlepay_all"
-497-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:32:13-61
-498            android:value="com.razorpay.RzpGpayMerged" />
-498-->[com.razorpay:checkout:1.6.15] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9069e2cd008acb19b334571b16cf4665\jetified-checkout-1.6.15\AndroidManifest.xml:33:13-55
-499
-500        <receiver
-500-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:32:9-39:20
-501            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-501-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:33:13-78
-502            android:exported="true"
-502-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:34:13-36
-503            android:permission="com.google.android.c2dm.permission.SEND" >
-503-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:35:13-73
-504            <intent-filter>
-504-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:36:13-38:29
-505                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-505-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:37:17-81
-505-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:37:25-78
-506            </intent-filter>
-507        </receiver>
-508        <!--
-509             FirebaseMessagingService performs security checks at runtime,
-510             but set to not exported to explicitly avoid allowing another app to call it.
-511        -->
-512        <service
-512-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:45:9-52:19
-513            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-513-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:46:13-82
-514            android:directBootAware="true"
-514-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:47:13-43
-515            android:exported="false" >
-515-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:48:13-37
-516            <intent-filter android:priority="-500" >
-516-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:406:13-408:29
-517                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-517-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:407:17-78
-517-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:407:25-75
-518            </intent-filter>
-519        </service>
-520        <service
-520-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:53:9-59:19
-521            android:name="com.google.firebase.components.ComponentDiscoveryService"
-521-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:54:13-84
-522            android:directBootAware="true"
-522-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
-523            android:exported="false" >
-523-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:55:13-37
-524            <meta-data
-524-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:56:13-58:85
-525                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-525-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:57:17-119
-526                android:value="com.google.firebase.components.ComponentRegistrar" />
-526-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:58:17-82
-527            <meta-data
-527-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
-528                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-528-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
-529                android:value="com.google.firebase.components.ComponentRegistrar" />
-529-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
-530            <meta-data
-530-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-531                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-531-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-532                android:value="com.google.firebase.components.ComponentRegistrar" />
-532-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-533        </service>
-534
-535        <activity
-535-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
-536            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-536-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
-537            android:excludeFromRecents="true"
-537-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
-538            android:exported="false"
-538-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
-539            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-539-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
-540        <!--
-541            Service handling Google Sign-In user revocation. For apps that do not integrate with
-542            Google Sign-In, this service will never be started.
-543        -->
-544        <service
-544-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
-545            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-545-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
-546            android:exported="true"
-546-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
-547            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
-547-->[com.google.android.gms:play-services-auth:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\960c5ec4ecfbb065c030eb0f6afd3350\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-548        <uses-library
-548-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-549            android:name="org.apache.http.legacy"
-549-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-550            android:required="false" />
-550-->[com.google.android.gms:play-services-maps:17.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\bd7cab90bb91d9ad7111f39b019c1ad2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-551
-552        <activity
-552-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-553            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-553-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-554            android:exported="false"
-554-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-555            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-555-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-556
-557        <provider
-557-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-558            android:name="com.google.firebase.provider.FirebaseInitProvider"
-558-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-559            android:authorities="com.ambitious.fghvendor.firebaseinitprovider"
-559-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-560            android:directBootAware="true"
-560-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-561            android:exported="false"
-561-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-562            android:initOrder="100" />
-562-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-563
-564        <meta-data
-564-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-565            android:name="com.google.android.gms.version"
-565-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-566            android:value="@integer/google_play_services_version" />
-566-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-567
-568        <service
-568-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
-569            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-569-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
-570            android:exported="false" >
-570-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
-571            <meta-data
-571-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
-572                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-572-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
-573                android:value="cct" />
-573-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
-574        </service>
-575        <service
-575-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
-576            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-576-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
-577            android:exported="false"
-577-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
-578            android:permission="android.permission.BIND_JOB_SERVICE" >
-578-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
-579        </service>
-580
-581        <receiver
-581-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
-582            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-582-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
-583            android:exported="false" />
-583-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
-584    </application>
-585
-586</manifest>
+437        <activity
+437-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
+438            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
+438-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
+439            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+439-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
+440
+441        <provider
+441-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
+442            android:name="androidx.core.content.FileProvider"
+442-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
+443            android:authorities="com.ambitious.fghvendor.provider"
+443-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
+444            android:exported="false"
+444-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
+445            android:grantUriPermissions="true" >
+445-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
+446            <meta-data
+446-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+447                android:name="android.support.FILE_PROVIDER_PATHS"
+447-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
+448                android:resource="@xml/provider_paths" />
+448-->[com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
+449        </provider>
+450
+451        <receiver
+451-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:32:9-39:20
+452            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+452-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:33:13-78
+453            android:exported="true"
+453-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:34:13-36
+454            android:permission="com.google.android.c2dm.permission.SEND" >
+454-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:35:13-73
+455            <intent-filter>
+455-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:36:13-38:29
+456                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+456-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:37:17-81
+456-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:37:25-78
+457            </intent-filter>
+458        </receiver>
+459        <!--
+460             FirebaseMessagingService performs security checks at runtime,
+461             but set to not exported to explicitly avoid allowing another app to call it.
+462        -->
+463        <service
+463-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:45:9-52:19
+464            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+464-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:46:13-82
+465            android:directBootAware="true"
+465-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:47:13-43
+466            android:exported="false" >
+466-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:48:13-37
+467            <intent-filter android:priority="-500" >
+467-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:383:13-385:29
+468                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+468-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:17-78
+468-->E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:25-75
+469            </intent-filter>
+470        </service>
+471        <service
+471-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:53:9-59:19
+472            android:name="com.google.firebase.components.ComponentDiscoveryService"
+472-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:54:13-84
+473            android:directBootAware="true"
+473-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+474            android:exported="false" >
+474-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:55:13-37
+475            <meta-data
+475-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:56:13-58:85
+476                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+476-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:57:17-119
+477                android:value="com.google.firebase.components.ComponentRegistrar" />
+477-->[com.google.firebase:firebase-messaging:23.0.7] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\40ee7158b502e2438420104912adf952\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:58:17-82
+478            <meta-data
+478-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+479                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+479-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+480                android:value="com.google.firebase.components.ComponentRegistrar" />
+480-->[com.google.firebase:firebase-datatransport:18.1.5] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\0beab6d25dbc2c29af780efd12fca71c\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+481            <meta-data
+481-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+482                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+482-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+483                android:value="com.google.firebase.components.ComponentRegistrar" />
+483-->[com.google.firebase:firebase-installations:17.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\dcc9eee016f923a9b46252a71502117e\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+484        </service>
+485
+486        <activity
+486-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+487            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+487-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+488            android:exported="false"
+488-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+489            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+489-->[com.google.android.gms:play-services-base:18.0.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\92e7f6f0911a871de9fd72bdb3a0aecb\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+490
+491        <provider
+491-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+492            android:name="com.google.firebase.provider.FirebaseInitProvider"
+492-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+493            android:authorities="com.ambitious.fghvendor.firebaseinitprovider"
+493-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+494            android:directBootAware="true"
+494-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+495            android:exported="false"
+495-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+496            android:initOrder="100" />
+496-->[com.google.firebase:firebase-common:20.1.1] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\9e716e3243f5d17d0f604c365a6bc46a\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+497
+498        <meta-data
+498-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+499            android:name="com.google.android.gms.version"
+499-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+500            android:value="@integer/google_play_services_version" />
+500-->[com.google.android.gms:play-services-basement:18.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\93706778beec2e87ad3362318a920516\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+501
+502        <service
+502-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+503            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+503-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+504            android:exported="false" >
+504-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+505            <meta-data
+505-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+506                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+506-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+507                android:value="cct" />
+507-->[com.google.android.datatransport:transport-backend-cct:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\2fe31e31bd0e381b7df7dfe2aebd85f1\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+508        </service>
+509        <service
+509-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+510            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+510-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+511            android:exported="false"
+511-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+512            android:permission="android.permission.BIND_JOB_SERVICE" >
+512-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+513        </service>
+514
+515        <receiver
+515-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+516            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+516-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+517            android:exported="false" />
+517-->[com.google.android.datatransport:transport-runtime:3.1.6] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\1898793f88bb5d39bc4d387af72dbfb5\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+518    </application>
+519
+520</manifest>

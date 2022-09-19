@@ -11,7 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ambitious.fghvendor.Activities.DoctorProfileActivity;
 import com.ambitious.fghvendor.Model.Doctors;
 import com.ambitious.fghvendor.R;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
@@ -92,24 +91,24 @@ public class ExpertDoctorListAdapter extends RecyclerView.Adapter<ExpertDoctorLi
             tv_Bookappoinment.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, DoctorProfileActivity.class)
+                   /* context.startActivity(new Intent(context, DoctorProfileActivity.class)
                             .putExtra("obj", "" + doctors.get(getAdapterPosition()).getObj())
                             .putExtra("catname", "" + doctors.get(getAdapterPosition()).getCatname())
                             .putExtra("catimg", "" + doctors.get(getAdapterPosition()).getCatimg())
                     );
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, DoctorProfileActivity.class)
+                    /*context.startActivity(new Intent(context, DoctorProfileActivity.class)
                             .putExtra("obj", "" + doctors.get(getAdapterPosition()).getObj())
                             .putExtra("catname", "" + doctors.get(getAdapterPosition()).getCatname())
                             .putExtra("catimg", "" + doctors.get(getAdapterPosition()).getCatimg())
                     );
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
         }

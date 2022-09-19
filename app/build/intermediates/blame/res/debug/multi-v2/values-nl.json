@@ -4,23 +4,6 @@
             "outputFile": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
-                    "source": "D:\\Downloads\\gradle-6.5-bin\\caches\\transforms-2\\files-2.1\\311f866f8d66fe132927f8d782a8e122\\jetified-play-services-wallet-18.1.3\\res\\values-nl\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "71",
-                        "endOffsets": "273"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "5318",
-                        "endColumns": "75",
-                        "endOffsets": "5389"
-                    }
-                },
-                {
                     "source": "D:\\Downloads\\gradle-6.5-bin\\caches\\transforms-2\\files-2.1\\c1d55b74461ac8bedced8a0777ac9d4e\\core-1.3.0\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2",
@@ -81,11 +64,11 @@
                         "endOffsets": "109,156,307,419"
                     },
                     "to": {
-                        "startLines": "50,51,52,53",
+                        "startLines": "49,50,51,52",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "5394,5453,5500,5651",
+                        "startOffsets": "5318,5377,5424,5575",
                         "endColumns": "58,46,150,111",
-                        "endOffsets": "5448,5495,5646,5758"
+                        "endOffsets": "5372,5419,5570,5682"
                     }
                 },
                 {

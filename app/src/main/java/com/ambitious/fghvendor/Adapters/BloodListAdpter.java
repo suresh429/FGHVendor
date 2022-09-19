@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ambitious.fghvendor.Activities.BloodBankProfileActivity;
 import com.ambitious.fghvendor.Activities.BloodDonorProfileActivity;
 import com.ambitious.fghvendor.Activities.BloodListActivity;
 import com.ambitious.fghvendor.Model.BloodDonor;
@@ -133,17 +132,17 @@ public class BloodListAdpter extends RecyclerView.Adapter<BloodListAdpter.MyView
                 @Override
                 public void onClick(View v) {
                     if (type.equalsIgnoreCase("bank")) {
-                        context.startActivity(new Intent(context, BloodBankProfileActivity.class)
+                        /*context.startActivity(new Intent(context, BloodBankProfileActivity.class)
                                 .putExtra("wallet", "" + ((BloodListActivity) context).wallet)
                                 .putExtra("donated", ((BloodListActivity) context).donated)
                                 .putExtra("head", tv_Name.getText().toString())
                                 .putExtra("obj", bloodDonors.get(getAdapterPosition()).getObj()));
-                        Animatoo.animateCard(context);
+                        Animatoo.animateCard(context);*/
                     } else {
-                        context.startActivity(new Intent(context, BloodDonorProfileActivity.class)
+                       /* context.startActivity(new Intent(context, BloodDonorProfileActivity.class)
                                 .putExtra("head", tv_Name.getText().toString())
                                 .putExtra("obj", bloodDonors.get(getAdapterPosition()).getObj()));
-                        Animatoo.animateCard(context);
+                        Animatoo.animateCard(context);*/
                     }
                 }
             });

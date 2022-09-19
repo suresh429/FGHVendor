@@ -4,23 +4,24 @@ apply plugin: 'com.google.gms.google-services'
 android {
     signingConfigs {
         release {
-            storeFile file('E:\\Android projects\\FGHDoctor\\FGHDoctor\\jks\\fgh.jks')
+            storeFile file('E:\\Android projects\\FGHVendor\\jks\\fgh.jks')
             keyAlias 'fgh'
             storePassword 'fgh@123'
             keyPassword 'fgh@123'
         }
     }
-    compileSdkVersion 30
+    compileSdkVersion 32
     buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.ambitious.fghvendor"
         minSdkVersion 24
-        targetSdkVersion 30
-        versionCode 17
-        versionName "2.0"
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
@@ -54,7 +55,7 @@ dependencies {
     implementation 'com.github.maayyaannkk:ImagePicker:1.0.4'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 //    implementation 'com.razorpay:checkout:1.5.13'
-    implementation 'com.razorpay:checkout:1.6.15'
+  //  implementation 'com.razorpay:checkout:1.6.15'
     implementation 'com.google.firebase:firebase-messaging:23.0.7'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

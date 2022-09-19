@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ambitious.fghvendor.Activities.VehicleProfileActivity;
 import com.ambitious.fghvendor.Activities.VehiclesActivity;
 import com.ambitious.fghvendor.Model.Vehicle;
 import com.ambitious.fghvendor.R;
@@ -90,11 +89,11 @@ public class VehiclesListAdapter extends RecyclerView.Adapter<VehiclesListAdapte
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, VehicleProfileActivity.class)
+                    /*context.startActivity(new Intent(context, VehicleProfileActivity.class)
                             .putExtra("wallet", "" + ((VehiclesActivity) context).wallet)
                             .putExtra("donated", ((VehiclesActivity) context).donated)
                             .putExtra("obj", "" + vehicles.get(getAdapterPosition()).getObj()));
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
         }

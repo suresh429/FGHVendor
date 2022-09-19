@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ambitious.fghvendor.Activities.DoctorProfileActivity;
 import com.ambitious.fghvendor.Model.Tokens;
 import com.ambitious.fghvendor.R;
 import com.ambitious.fghvendor.Utils.CustomSnakbar;
@@ -140,7 +139,7 @@ public class AppointmentNumberAdapter extends RecyclerView.Adapter<AppointmentNu
                         for (int i = 0; i < tokens.size(); i++) {
 
                             if (i == getAdapterPosition()) {
-                                if (tokens.get(getAdapterPosition()).isIs_enable()) {
+                               /* if (tokens.get(getAdapterPosition()).isIs_enable()) {
                                     tokens.get(getAdapterPosition()).setIs_sel(true);
                                     ((DoctorProfileActivity) context).token_no = tokens.get(getAdapterPosition()).getToken();
                                     ((DoctorProfileActivity) context).doctor_shift_id = tokens.get(getAdapterPosition()).getDoctor_shift_id();
@@ -150,7 +149,7 @@ public class AppointmentNumberAdapter extends RecyclerView.Adapter<AppointmentNu
                                     ((DoctorProfileActivity) context).doctor_shift_id = "";
                                     ((DoctorProfileActivity) context).service_charge = "";
                                     CustomSnakbar.showDarkSnakabar(context, v, "Previous Token is Empty!\nPlease Select Previous one First!");
-                                }
+                                }*/
                                 /*if (i == 0) {
                                     tokens.get(getAdapterPosition()).setIs_sel(true);
                                 } else {

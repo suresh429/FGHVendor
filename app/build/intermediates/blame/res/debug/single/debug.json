@@ -4,12 +4,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_noti.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_settings.xml.flat",
@@ -48,6 +48,10 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_product.xml"
     },
@@ -84,12 +88,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_person.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_prices_signup.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_person.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ambulance.xml.flat",
@@ -116,10 +120,6 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\hospital.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oxygenbank.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\oxygenbank.png"
     },
@@ -134,10 +134,6 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fghvideo.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\fghvideo.png"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_blood_list.xml.flat",
@@ -224,10 +220,6 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\two.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\img.png"
     },
@@ -256,6 +248,10 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_payment_history.xml"
     },
     {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_all.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_all.xml"
     },
@@ -274,10 +270,6 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\lock.png"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_covid_services.xml.flat",
@@ -360,12 +352,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_login.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_blood_grp.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_blood_grp.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_what.png.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\what.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_blood_grp.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_blood_grp.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sharing.png.flat",
@@ -402,6 +394,10 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delovery_boy_login.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delovery_boy_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more.xml.flat",
@@ -496,24 +492,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_lab_list.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_circle.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_circle.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_membership.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_membership.xml"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car.png.flat",
@@ -546,6 +530,10 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_market_prices.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_market_prices.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_r_m_p_doctor_home.xml.flat",
@@ -630,10 +618,6 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_refer.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_refer.xml"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vaterinary_signup.xml.flat",
@@ -904,8 +888,8 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_invert.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sanatization.png.flat",
@@ -1064,10 +1048,6 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_signup.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_main_appointment_category_list.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_new_main_appointment_category_list.xml"
     },
@@ -1164,10 +1144,6 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_withdrawal.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_paid_success.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_paid_success.xml"
     },
@@ -1190,10 +1166,6 @@
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_consulting.png.flat",

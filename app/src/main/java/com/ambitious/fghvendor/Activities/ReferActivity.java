@@ -67,7 +67,7 @@ public class ReferActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.ll_Wallet:
-                startActivity(new Intent(mContext, MyWalletActivity.class));
+                //startActivity(new Intent(mContext, MyWalletActivity.class));
                 Animatoo.animateCard(mContext);
                 break;
 

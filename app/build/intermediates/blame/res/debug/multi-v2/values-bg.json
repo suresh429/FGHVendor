@@ -47,11 +47,11 @@
                         "endOffsets": "107,154,306,417"
                     },
                     "to": {
-                        "startLines": "50,51,52,53",
+                        "startLines": "49,50,51,52",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "5421,5478,5525,5677",
+                        "startOffsets": "5346,5403,5450,5602",
                         "endColumns": "56,46,151,110",
-                        "endOffsets": "5473,5520,5672,5783"
+                        "endOffsets": "5398,5445,5597,5708"
                     }
                 },
                 {
@@ -86,23 +86,6 @@
                         "startOffsets": "5245",
                         "endColumns": "100",
                         "endOffsets": "5341"
-                    }
-                },
-                {
-                    "source": "D:\\Downloads\\gradle-6.5-bin\\caches\\transforms-2\\files-2.1\\311f866f8d66fe132927f8d782a8e122\\jetified-play-services-wallet-18.1.3\\res\\values-bg\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "70",
-                        "endOffsets": "272"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "5346",
-                        "endColumns": "74",
-                        "endOffsets": "5416"
                     }
                 }
             ]

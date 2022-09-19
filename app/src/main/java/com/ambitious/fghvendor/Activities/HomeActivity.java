@@ -381,7 +381,7 @@ public class HomeActivity extends AppCompatActivity implements DuoMenuView.OnMen
 //                            .putExtra("head", "Blood"));
 //                    Animatoo.animateCard(mContext);
                     if (Utility.getSharedPreferencesBoolean(mContext, "islogin", false)) {
-                        startActivity(new Intent(mContext, MyWalletActivity.class));
+                       // startActivity(new Intent(mContext, MyWalletActivity.class));
                         Animatoo.animateCard(mContext);
                     } else {
                         startActivity(new Intent(mContext, LoginActivity.class));
@@ -396,7 +396,7 @@ public class HomeActivity extends AppCompatActivity implements DuoMenuView.OnMen
 //                        startActivity(new Intent(mContext, BloodListActivity.class)
 //                                .putExtra("head", "Blood"));
 //                        Animatoo.animateCard(mContext);
-                        startActivity(new Intent(mContext, MyWalletActivity.class));
+                       // startActivity(new Intent(mContext, MyWalletActivity.class));
                         Animatoo.animateCard(mContext);
                     } else {
 
@@ -584,156 +584,6 @@ public class HomeActivity extends AppCompatActivity implements DuoMenuView.OnMen
                 break;
         }
 
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        IntentResult intentResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
-        // if the intentResult is null then
-        // toast a message as "cancelled"
-        if (intentResult != null) {
-            if (intentResult.getContents() == null) {
-                Toast.makeText(getBaseContext(), "Cancelled", Toast.LENGTH_SHORT).show();
-            } else {
-                // if the intentResult is not null we'll set
-                // the content and format of scan message
-                Log.d("TAG", "onActivityResult: " + intentResult.getContents());
-
-                rl_Loader.setVisibility(View.VISIBLE);
-                Call<ResponseBody> call = AppConfig.loadInterface().getProfile(intentResult.getContents());
-                call.enqueue(new Callback<ResponseBody>() {
-                    @Override
-                    public void onResponse(Call<ResponseBody> call, retrofit2.Response<ResponseBody> response) {
-                        rl_Loader.setVisibility(View.GONE);
-                        try {
-                            if (response.isSuccessful()) {
-                                String responseData = response.body().string();
-                                JSONObject object = new JSONObject(responseData);
-                                String status = object.getString("status");
-                                String message = object.getString("message");
-                                String resultmessage = object.getString("result");
-                                System.out.println("Login" + object);
-
-                                if (status.equalsIgnoreCase("1")) {
-
-                                    JSONObject result = object.optJSONObject("result");
-                                    String user_type = result.optString("user_type");
-                                    String name = result.optString("name");
-                                   /* String wallet = result.optString("wallet");
-                                    String donated = result.optString("donated");*/
-
-                                    if (user_type.equalsIgnoreCase("market")) {
-
-                                        startActivity(new Intent(HomeActivity.this, MarketPricesProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("medical")){
-                                        startActivity(new Intent(HomeActivity.this, MedicalShopProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("bank")){
-
-                                        startActivity(new Intent(HomeActivity.this, BloodBankProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("rmp")){
-
-                                        startActivity(new Intent(HomeActivity.this, RMPDoctorProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                //.putExtra("donated", donated)
-                                               // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("labs")){
-
-                                        startActivity(new Intent(HomeActivity.this, MedicalShopProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("vaterinary")){
-
-                                        startActivity(new Intent(HomeActivity.this, VaterinaryDoctorProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("Vehicle")){
-
-                                        startActivity(new Intent(HomeActivity.this, VehicleProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (
-                                            user_type.equalsIgnoreCase("Book 108")  ||
-                                            user_type.equalsIgnoreCase("Private Ambulance")  ||
-                                            user_type.equalsIgnoreCase("Team Ambulance")
-                                    ){
-
-                                        startActivity(new Intent(HomeActivity.this, AmbulanceDriverProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }else if (user_type.equalsIgnoreCase("donor")){
-
-                                        startActivity(new Intent(HomeActivity.this, BloodDonorProfileActivity.class)
-                                                .putExtra("wallet", wallet)
-                                                .putExtra("donated", donated)
-                                                // .putExtra("head", name)
-                                                .putExtra("obj", "" +result)
-                                        );
-                                        Animatoo.animateCard(HomeActivity.this);
-                                    }
-
-                                }
-
-
-                            } else ;
-
-                        } catch (IOException | JSONException e) {
-                            e.printStackTrace();
-                            //  CustomSnakbar.showDarkSnakabar(mContext, view, "Profile " + e.getMessage());
-                            Toast.makeText(mContext, "Profile " + e.getMessage(), Toast.LENGTH_SHORT).show();
-
-
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<ResponseBody> call, Throwable t) {
-                        t.printStackTrace();
-                        rl_Loader.setVisibility(View.GONE);
-                        Toast.makeText(mContext, "Failed server or network connection, please try again", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-            }
-        } else {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
     }
 
 

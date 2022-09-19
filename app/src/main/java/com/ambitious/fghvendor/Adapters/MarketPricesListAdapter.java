@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SortedList;
 
 import com.ambitious.fghvendor.Activities.MarketPricesActivity;
-import com.ambitious.fghvendor.Activities.MarketPricesProfileActivity;
 import com.ambitious.fghvendor.Model.MarketPriceList;
 import com.ambitious.fghvendor.R;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
@@ -100,12 +99,12 @@ public class MarketPricesListAdapter extends RecyclerView.Adapter<MarketPricesLi
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, MarketPricesProfileActivity.class)
+                    /*context.startActivity(new Intent(context, MarketPricesProfileActivity.class)
                             .putExtra("wallet", ((MarketPricesActivity) context).wallet)
                             .putExtra("donated", ((MarketPricesActivity) context).donated)
                             .putExtra("obj", "" + marketPriceLists.get(getAdapterPosition()).getObj())
                     );
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
         }

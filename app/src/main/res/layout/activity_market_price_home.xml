@@ -521,7 +521,7 @@
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:layout_toEndOf="@+id/chk_Apositive"
                             android:src="@drawable/ic_add_box"
-                            app:tint="@color/wallet_holo_blue_light" />
+                            app:tint="@color/colorBase" />
 
 
                         <EditText

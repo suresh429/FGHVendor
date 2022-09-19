@@ -13,7 +13,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ambitious.fghvendor.Activities.MedicalShopListActivity;
-import com.ambitious.fghvendor.Activities.MedicalShopProfileActivity;
 import com.ambitious.fghvendor.Model.MedicalShop;
 import com.ambitious.fghvendor.R;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
@@ -93,12 +92,12 @@ public class MedicalShopListAdapter extends RecyclerView.Adapter<MedicalShopList
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, MedicalShopProfileActivity.class)
+                   /* context.startActivity(new Intent(context, MedicalShopProfileActivity.class)
                             .putExtra("wallet", ((MedicalShopListActivity) context).wallet)
                             .putExtra("donated", ((MedicalShopListActivity) context).donated)
                             .putExtra("obj", "" + medicalShops.get(getAdapterPosition()).getObj())
                     );
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
         }

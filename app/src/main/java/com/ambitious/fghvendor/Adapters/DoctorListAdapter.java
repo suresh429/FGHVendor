@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ambitious.fghvendor.Activities.DoctorProfileActivity;
 import com.ambitious.fghvendor.Activities.NewAppointmentCategoryListActivity;
 import com.ambitious.fghvendor.Model.Doctors;
 import com.ambitious.fghvendor.R;
@@ -99,27 +98,27 @@ public class DoctorListAdapter extends RecyclerView.Adapter<DoctorListAdapter.My
                 @Override
                 public void onClick(View v) {
 //                    Toast.makeText(context, "Donated=>" + ((NewAppointmentCategoryListActivity) context).donated + "\nWallet=>" + ((NewAppointmentCategoryListActivity) context).wallet, Toast.LENGTH_SHORT).show();
-                    context.startActivity(new Intent(context, DoctorProfileActivity.class)
+                   /* context.startActivity(new Intent(context, DoctorProfileActivity.class)
                             .putExtra("obj", "" + doctors.get(getAdapterPosition()).getObj())
                             .putExtra("catname", "" + doctors.get(getAdapterPosition()).getCatname())
                             .putExtra("catimg", "" + doctors.get(getAdapterPosition()).getCatimg())
                             .putExtra("donated", "" + ((NewAppointmentCategoryListActivity) context).donated)
                             .putExtra("wallet", "" + ((NewAppointmentCategoryListActivity) context).wallet)
                     );
-                    Animatoo.animateCard(context);
+                    Animatoo.animateCard(context);*/
                 }
             });
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    context.startActivity(new Intent(context, DoctorProfileActivity.class)
+                    /*context.startActivity(new Intent(context, DoctorProfileActivity.class)
                             .putExtra("obj", "" + doctors.get(getAdapterPosition()).getObj())
                             .putExtra("catname", "" + doctors.get(getAdapterPosition()).getCatname())
                             .putExtra("catimg", "" + doctors.get(getAdapterPosition()).getCatimg())
                             .putExtra("donated", "" + ((NewAppointmentCategoryListActivity) context).donated)
                             .putExtra("wallet", "" + ((NewAppointmentCategoryListActivity) context).wallet)
-                    );
+                    );*/
                     Animatoo.animateCard(context);
                 }
             });
