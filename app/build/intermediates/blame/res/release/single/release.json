@@ -1,0 +1,1198 @@
+[
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_blood_grp.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_blood_grp.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_blood.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\blood.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_box.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\box.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_report_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_report_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_circle.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_circle.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_more.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_circle_gray.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_circle_gray.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_more.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\more.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vehicle_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vehicle_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_my_wallet.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_my_wallet.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_medical_shop_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_medical_shop_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_isokit.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\isokit.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_become.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\become.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_play.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_offer_grid_item.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\offer_grid_item.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_qr_code.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_qr_code.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_add_notification.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_add_notification.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\xml_picker_provider_paths.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\xml\\picker_provider_paths.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_payment_history.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_payment_history.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_payment_history.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_payment_history.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_play_arrow.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_play_arrow.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_faceb.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\faceb.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_report.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\report.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_hospital.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\hospital.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_carblue.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\carblue.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_reports.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_reports.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_box_base.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_box_base.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_webview.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_chat.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\chat.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_reports.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_reports.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_doctor_horizontal.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_doctor_horizontal.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_neuro.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\neuro.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add_circle.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_labs_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_labs_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sanitization_service.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_service.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_winners.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_winners.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_stars.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_stars.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_market_price_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_price_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sanitization_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_market_prices_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_covid_nineteen.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\covid_nineteen.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_payment.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_payment.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_view_reviews.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_view_reviews.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_deliveryboy.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\deliveryboy.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_rate.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\rate.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_launcher.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\launcher.jpg"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_et_bg.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\et_bg.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_white_round.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\btn_white_round.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_covid_winners.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_covid_winners.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_error.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_error.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_user.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_fb.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\fb.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vehicle_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vehicle_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_token.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\token.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_medicalhome.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\medicalhome.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_blood.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_blood.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_lab_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_lab_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ambulance.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ambulance.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_donor_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_donor_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_driver_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_driver_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_date.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_date.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_fghvideo.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\fghvideo.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_donor_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_donor_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_imagedialog_view.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\imagedialog_view.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_delivery_boy.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delivery_boy.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_gps.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\dialog_gps.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_sanatization.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\sanatization.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_category.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_category.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_rmp.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\rmp.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_bank_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_bank_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_pay.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\pay.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_search.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_food_bank.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_food_bank.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_vetreneri.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\vetreneri.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bloodhome.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bloodhome.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_next.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ortho.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ortho.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_lock.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_medical_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_medical_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_call.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_helping_soldier_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_helping_soldier_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_myd.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\myd.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_consulting.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\consulting.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_delivery_boy_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delivery_boy_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sanitization_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_food_bank_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_food_bank_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_cart.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_account.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_account.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_oxygen_bank_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_oxygen_bank_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_doctor_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_doctor_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vatinary_doctor_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vatinary_doctor_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_frag_membership.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\frag_membership.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_noti.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_noti.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_representative_booking.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_representative_booking.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_person.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_doctors.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_doctors.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_doctor_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_doctor_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_briefcase.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\briefcase.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_add_patient.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_add_patient.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_one.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_one.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_beds.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\beds.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_circle_base.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_circle_base.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_myreport.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_myreport.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_noti.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_noti.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_nav_header.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_teleg.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\teleg.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_medicalshop.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_medicalshop.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_donor_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_donor_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_car.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\car.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_doctor.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_doctor.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vaterinary_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vaterinary_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_imageoperation.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\dialog_imageoperation.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_delivery_boy_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delivery_boy_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_lab_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_lab_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_appointment_category_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_appointment_category_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_oxygen_bank_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_oxygen_bank_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_access_time.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_access_time.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_food_bank_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_food_bank_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_remove.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_all.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_rmp.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_rmp.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_customview.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\customview.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_oxygen_bank_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_oxygen_bank_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_membership.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_membership.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_invert.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_invert.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_medicalreport.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\medicalreport.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ambulancehome.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ambulancehome.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sanitization_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_food_bank_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_food_bank_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_day.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_day.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_labs_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_labs_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_ambulance.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_ambulance.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_delivery_boy_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delivery_boy_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_settings.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_book.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\dialog_book.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_medical_shop_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_medical_shop_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_menu.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_win.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\win.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_oxygenbank.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\oxygenbank.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_setting.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vehicle_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vehicle_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_injection.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\injection.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_refer_share.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\refer_share.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_btn.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_btn.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_cardio.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\cardio.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_my_appointment.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_my_appointment.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_product.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_product.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_fitness.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\fitness.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_market_prices_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_side_menu.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\side_menu.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_what.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\what.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_market_prices.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_epass.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\epass.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_box_mybook.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_box_mybook.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_dentist.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\dentist.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_paid_success.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_paid_success.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_covid_services.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_covid_services.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_ambulance_driver_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_ambulance_driver_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_google.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\google.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_helping_soldier.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_helping_soldier.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_top.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_top.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_appoin.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\appoin.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_record.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_record.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_one.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\one.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_rounded_corner_border.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\rounded_corner_border.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_ambulance.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_ambulance.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_market_grp.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_market_grp.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_splash_logo.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\splash_logo.jpg"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_delivery.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\delivery.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_doctor_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_doctor_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add_box_blue.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_add_box_blue.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vaterinary_doctor_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vaterinary_doctor_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_key_bck.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_key_bck.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_oxygen_bank_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_oxygen_bank_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vaterinary_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vaterinary_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_medical.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\medical.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_check.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_circle_sel.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_circle_sel.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_location.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_box.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_box.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_examination.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\examination.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_telemedi.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\telemedi.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_donor_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_donor_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_new_main_appointment_category_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_new_main_appointment_category_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_ambulancedriver.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_ambulancedriver.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_withdrawal.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_withdrawal.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_call_support.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\fragment_call_support.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_helping_soldier_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_helping_soldier_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_profile_new.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\profile_new.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_market_prices.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_market_prices.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_foodbank.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\foodbank.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_exit.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_exit.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_medical_shop.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_medical_shop.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_messa.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\messa.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_sharing.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\sharing.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_bank_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_bank_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_camera.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\camera.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_grey.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_grey.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_check_circle_24.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_group.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_group.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_share.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vaterinary_doctor_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vaterinary_doctor_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_shift.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_shift.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_covidservice.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\covidservice.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add_box.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_add_box.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_appointmentnum.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_appointmentnum.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_doctor_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_doctor_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_labs_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_labs_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_notification.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_three.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\three.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_patient_detail.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_patient_detail.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_two.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\two.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_img.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\img.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_review.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_review.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vehicle_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vehicle_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_video_view.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_video_view.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_refer_new.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\refer_new.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_cancel.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_bank_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_bank_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_lab.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\lab.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_image_histry.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_image_histry.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_app_bar_main.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_bck.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_bck.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_cross.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\cross.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_notification_detail.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification_detail.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_add_blue.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_add_blue.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_delovery_boy_login.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_delovery_boy_login.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_doctor_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_doctor_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_markert_prices.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\markert_prices.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_drop.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_drop.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\raw_notification_tone.mp3.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\raw\\notification_tone.mp3"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_profileuser.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\profileuser.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_food_bank_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_food_bank_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_img_donor.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\img_donor.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vaterinary_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vaterinary_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_quarantinecenter.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\quarantinecenter.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bloodbank.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bloodbank.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_lab_update.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_lab_update.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_vaccination.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\vaccination.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_helpinghand.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\helpinghand.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_frag_settings.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\frag_settings.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_user_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_bank_details.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_bank_details.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_refer.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_refer.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_round_chat.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_round_chat.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_cat.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_cat.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_helping_soldier_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_helping_soldier_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_oxygen_bank_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_oxygen_bank_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_splash.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_profile.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_shop_img.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\shop_img.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_box_white.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bg_box_white.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\raw_success_notification.mpeg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\raw\\success_notification.mpeg"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_vender_banner.jpg.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\vender_banner.jpg"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_r_m_p_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_r_m_p_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_img_laxman.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\img_laxman.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_patient.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_patient.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_blood_bank_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_blood_bank_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_file.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_bank.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\bank.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_gpay.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\gpay.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_vehicles.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_vehicles.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\xml_network_security_config.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_city_list.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\city_list.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_market_prices_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_helping_soldier_profile.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_helping_soldier_profile.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_item_appointment.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_appointment.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sanitization_home.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_sanitization_home.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_direction.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_direction.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_appointment_detail.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_appointment_detail.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_image_chat.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\dialog_image_chat.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\menu_popup_menu.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\menu\\popup_menu.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_medical_shop_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_medical_shop_signup.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_urology.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\urology.png"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_wallet.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_wallet.xml"
+    }
+]
