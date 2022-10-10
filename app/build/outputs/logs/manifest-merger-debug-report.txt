@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
 MERGED from [com.github.mohammadatif:Animatoo:master] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\70a5ec2b7d45646f582f64ef469a501b\jetified-Animatoo-master\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0-alpha02] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\65c94cb85c6a09e822c17b49d9b2a620\material-1.1.0-alpha02\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:2:1-30:12
@@ -67,22 +67,22 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] D:\Downloads\gradle-6.5-bin\c
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8bf2f12de099ce6488834c0351128d52\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\f62edf6b30025870309420d743344b52\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\254f4f53d13320bf8e163af1f23ba689\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
-INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
+INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
 	package
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-408:12
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:1-428:12
 		INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:2:11-69
@@ -117,61 +117,23 @@ MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-b
 	android:name
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:8:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:9:5-10:40
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
+	tools:ignore
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:10:9-37
 	android:name
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:11:22-78
-uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:12:5-14:53
-	tools:ignore
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:14:9-50
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:13:9-61
-uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:15:5-17:40
-	tools:ignore
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:17:9-37
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:16:9-66
-queries
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:18:5-28:15
-package#com.whatsapp
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:19:9-48
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:19:18-45
-package#com.facebook.orca
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:9-53
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:20:18-50
-package#com.facebook.katana
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:9-55
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:21:18-52
-package#com.google.android.apps.nbu.paisa.user
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:9-74
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:22:18-71
-package#com.phonepe.app
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:9-51
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:23:18-48
-intent
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:25:9-27:18
-action#android.intent.action.SEND
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:26:13-65
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:26:21-62
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:30:5-406:19
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:37:5-426:19
 MERGED from [com.google.android.material:material:1.1.0-alpha02] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\65c94cb85c6a09e822c17b49d9b2a620\material-1.1.0-alpha02\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha02] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\65c94cb85c6a09e822c17b49d9b2a620\material-1.1.0-alpha02\AndroidManifest.xml:22:5-20
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\404ee064ac69df7370e9390f9f5384d8\jetified-ImagePicker-1.0.4\AndroidManifest.xml:14:5-28:19
@@ -215,722 +177,722 @@ MERGED from [androidx.core:core:1.3.0] D:\Downloads\gradle-6.5-bin\caches\transf
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\f42ca2f21be3e184fd93b3de2c6cafa3\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\f42ca2f21be3e184fd93b3de2c6cafa3\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:35:9-52
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:42:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\c1d55b74461ac8bedced8a0777ac9d4e\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:37:9-35
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:44:9-35
 	android:label
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:33:9-41
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:40:9-41
 	android:roundIcon
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:36:9-47
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:43:9-47
 	android:icon
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:32:9-42
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:39:9-42
 	android:allowBackup
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:38:9-35
 	android:theme
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:38:9-40
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:45:9-40
 	android:networkSecurityConfig
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:34:9-69
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:41:9-69
 activity#com.ambitious.fghvendor.Activities.QrCodeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:40:9-42:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:47:9-49:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:41:13-77
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:48:13-77
 activity#com.ambitious.fghvendor.Activities.PaidSuccessActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:43:9-45:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:50:9-52:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:44:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:51:13-82
 activity#com.ambitious.fghvendor.Activities.PaymentHistoryActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:53:9-55:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:47:13-85
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:54:13-85
 activity#com.ambitious.fghvendor.Activities.MarketPriceHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:49:9-51:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:56:9-58:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:58:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:50:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:57:13-86
 activity#com.ambitious.fghvendor.Activities.BankDetailsActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:52:9-54:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:59:9-61:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:53:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:60:13-82
 activity#com.ambitious.fghvendor.Activities.MarketPricesSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:55:9-57:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:62:9-64:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:57:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:56:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:63:13-89
 activity#com.ambitious.fghvendor.Activities.MarketPricesLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:58:9-60:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:65:9-67:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:67:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:59:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:66:13-88
 activity#com.ambitious.fghvendor.Activities.MarketPricesActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:61:9-63:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:68:9-70:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:62:13-83
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:69:13-83
 activity#com.ambitious.fghvendor.Activities.DeliveryBoyHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:64:9-66:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:71:9-73:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:66:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:73:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:65:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:72:13-86
 activity#com.ambitious.fghvendor.Activities.DeliveryBoySignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:67:9-69:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:74:9-76:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:68:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:75:13-88
 activity#com.ambitious.fghvendor.Activities.DeliveryBoyProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:70:9-72:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:77:9-79:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:72:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:79:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:71:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:78:13-89
 activity#com.ambitious.fghvendor.Activities.DeloveryBoyLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:73:9-75:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:80:9-82:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:75:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:82:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:74:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:81:13-87
 activity#com.ambitious.fghvendor.Activities.DeliveryBoyActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:76:9-78:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:83:9-85:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:78:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:85:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:77:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:84:13-82
 activity#com.ambitious.fghvendor.Activities.VehicleSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:79:9-81:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:86:9-88:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:88:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:80:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:87:13-84
 activity#com.ambitious.fghvendor.Activities.VehicleHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:82:9-84:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:89:9-91:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:84:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:91:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:83:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:90:13-82
 activity#com.ambitious.fghvendor.Activities.VehicleLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:85:9-87:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:92:9-94:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:87:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:86:13-83
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:93:13-83
 activity#com.ambitious.fghvendor.Activities.VehiclesActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:88:9-90:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:95:9-97:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:90:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:97:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:89:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:96:13-79
 activity#com.ambitious.fghvendor.Activities.FoodBankSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:91:9-93:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:98:9-100:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:93:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:100:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:92:13-85
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:99:13-85
 activity#com.ambitious.fghvendor.Activities.FoodBankHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:94:9-96:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:101:9-103:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:96:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:103:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:95:13-83
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:102:13-83
 activity#com.ambitious.fghvendor.Activities.FoodBankLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:97:9-99:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:104:9-106:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:99:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:106:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:98:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:105:13-84
 activity#com.ambitious.fghvendor.Activities.FoodBankProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:100:9-102:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:107:9-109:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:102:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:109:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:101:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:108:13-86
 activity#com.ambitious.fghvendor.Activities.FoodBankActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:103:9-105:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:110:9-112:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:105:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:112:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:104:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:111:13-79
 activity#com.ambitious.fghvendor.Activities.SanitizationProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:106:9-108:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:113:9-115:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:108:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:115:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:107:13-90
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:114:13-90
 activity#com.ambitious.fghvendor.Activities.SanitizationHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:109:9-111:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:116:9-118:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:111:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:118:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:110:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:117:13-87
 activity#com.ambitious.fghvendor.Activities.SanitizationSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:112:9-114:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:119:9-121:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:114:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:121:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:113:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:120:13-89
 activity#com.ambitious.fghvendor.Activities.SanitizationLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:115:9-117:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:122:9-124:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:117:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:124:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:116:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:123:13-88
 activity#com.ambitious.fghvendor.Activities.SanitizationServiceActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:118:9-120:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:125:9-127:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:120:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:127:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:119:13-90
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:126:13-90
 activity#com.ambitious.fghvendor.Activities.HelpingSoldierSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:121:9-123:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:128:9-130:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:123:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:130:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:122:13-91
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:129:13-91
 activity#com.ambitious.fghvendor.Activities.HelpingSoldierHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:124:9-126:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:131:9-133:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:126:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:133:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:125:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:132:13-89
 activity#com.ambitious.fghvendor.Activities.HelpingSoldierLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:127:9-129:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:134:9-136:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:129:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:136:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:128:13-90
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:135:13-90
 activity#com.ambitious.fghvendor.Activities.HelpingSoldierProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:130:9-132:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:137:9-139:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:132:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:139:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:131:13-92
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:138:13-92
 activity#com.ambitious.fghvendor.Activities.HelpingSoldierActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:133:9-135:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:140:9-142:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:135:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:142:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:134:13-85
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:141:13-85
 activity#com.ambitious.fghvendor.Activities.OxygenBankSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:136:9-138:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:143:9-145:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:138:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:145:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:137:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:144:13-87
 activity#com.ambitious.fghvendor.Activities.OxygenBankHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:139:9-141:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:146:9-148:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:141:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:148:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:140:13-85
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:147:13-85
 activity#com.ambitious.fghvendor.Activities.OxygenBankLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:142:9-144:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:149:9-151:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:144:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:151:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:143:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:150:13-86
 activity#com.ambitious.fghvendor.Activities.OxygenBankProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:145:9-147:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:152:9-154:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:147:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:154:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:146:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:153:13-88
 activity#com.ambitious.fghvendor.Activities.OxygenBankListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:148:9-150:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:155:9-157:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:150:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:157:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:149:13-85
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:156:13-85
 activity#com.ambitious.fghvendor.Activities.VideoViewActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:151:9-153:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:158:9-160:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:153:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:152:13-80
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:159:13-80
 activity#com.ambitious.fghvendor.Activities.CovidWinnersActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:154:9-170:20
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:161:9-177:20
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:156:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:155:13-83
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:13-83
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:fghdoctors.com+data:pathPrefix:/fitnessvideo+data:scheme:https
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:157:13-169:29
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:164:13-176:29
 	android:label
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:159:17-49
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:166:17-49
 	android:autoVerify
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:158:17-42
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:165:17-42
 action#android.intent.action.VIEW
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:17-69
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:17-69
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:160:25-66
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:17-76
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:17-76
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:162:27-73
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:169:27-73
 category#android.intent.category.BROWSABLE
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:17-78
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:17-78
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:163:27-75
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:170:27-75
 data
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:165:17-168:46
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:17-175:46
 	android:host
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:166:21-50
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:21-50
 	android:scheme
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:168:21-43
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:21-43
 	android:pathPrefix
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:167:21-55
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:174:21-55
 activity#com.ambitious.fghvendor.Activities.CovidServicesActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:171:9-173:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:178:9-180:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:173:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:180:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:172:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:179:13-84
 activity#com.ambitious.fghvendor.Activities.AddNotificationActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:174:9-176:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:181:9-183:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:176:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:183:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:175:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:182:13-86
 activity#com.ambitious.fghvendor.Activities.NotificationDetailActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:177:9-193:20
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:184:9-200:20
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:179:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:186:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:178:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:185:13-89
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:fghdoctors.com+data:pathPrefix:/liveupdates+data:scheme:https
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:180:13-192:29
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:187:13-199:29
 	android:label
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:182:17-49
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:189:17-49
 	android:autoVerify
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:181:17-42
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:188:17-42
 activity#com.ambitious.fghvendor.Activities.NotificationActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:194:9-196:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:201:9-203:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:196:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:203:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:195:13-83
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:202:13-83
 activity#com.ambitious.fghvendor.Activities.ReferActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:197:9-199:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:204:9-206:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:199:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:206:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:198:13-76
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:205:13-76
 activity#com.ambitious.fghvendor.Activities.NewAppointmentCategoryListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:200:9-202:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:207:9-209:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:202:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:209:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:201:13-97
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:208:13-97
 activity#com.ambitious.fghvendor.Activities.ViewReviewsActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:203:9-205:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:210:9-212:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:205:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:212:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:204:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:211:13-82
 activity#com.ambitious.fghvendor.Activities.AppointmentDetailActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:206:9-208:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:213:9-215:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:208:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:215:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:207:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:214:13-88
 activity#com.ambitious.fghvendor.Activities.WebviewActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:209:9-211:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:216:9-218:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:211:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:218:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:210:13-78
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:217:13-78
 activity#com.ambitious.fghvendor.Activities.ReportListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:212:9-214:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:219:9-221:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:214:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:221:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:213:13-81
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:220:13-81
 activity#com.ambitious.fghvendor.Activities.ReportsActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:215:9-217:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:222:9-224:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:217:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:224:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:216:13-78
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:223:13-78
 activity#com.ambitious.fghvendor.Activities.LabUpdateActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:218:9-220:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:225:9-227:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:220:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:227:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:219:13-80
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:226:13-80
 activity#com.ambitious.fghvendor.Activities.LabsProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:221:9-223:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:228:9-230:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:223:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:230:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:222:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:229:13-82
 activity#com.ambitious.fghvendor.Activities.LabsSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:224:9-226:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:231:9-233:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:226:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:233:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:225:13-81
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:232:13-81
 activity#com.ambitious.fghvendor.Activities.LabsHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:227:9-229:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:234:9-236:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:229:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:236:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:228:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:235:13-79
 activity#com.ambitious.fghvendor.Activities.LabLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:230:9-232:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:237:9-239:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:232:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:239:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:231:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:238:13-79
 activity#com.ambitious.fghvendor.Activities.LabListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:233:9-235:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:240:9-242:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:235:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:242:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:234:13-78
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:241:13-78
 activity#com.ambitious.fghvendor.Activities.RepresentativeBookingActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:236:9-238:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:243:9-245:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:238:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:245:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:237:13-92
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:244:13-92
 activity#com.ambitious.fghvendor.Activities.VatinaryDoctorHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:239:9-241:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:246:9-248:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:241:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:248:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:240:13-89
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:247:13-89
 activity#com.ambitious.fghvendor.Activities.RMPDoctorHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:242:9-244:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:249:9-251:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:244:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:251:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:243:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:250:13-84
 activity#com.ambitious.fghvendor.Activities.VaterinaryUpdateActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:245:9-247:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:252:9-254:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:247:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:254:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:246:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:253:13-87
 activity#com.ambitious.fghvendor.Activities.VaterinarySignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:248:9-250:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:255:9-257:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:250:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:257:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:249:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:256:13-87
 activity#com.ambitious.fghvendor.Activities.VaterinaryLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:251:9-253:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:258:9-260:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:253:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:260:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:252:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:259:13-86
 activity#com.ambitious.fghvendor.Activities.VaterinaryDoctorProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:254:9-256:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:261:9-263:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:256:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:263:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:255:13-94
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:262:13-94
 activity#com.ambitious.fghvendor.Activities.VaterinaryDoctorListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:257:9-259:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:264:9-266:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:259:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:266:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:258:13-91
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:265:13-91
 activity#com.ambitious.fghvendor.Activities.RMPDoctorProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:260:9-262:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:267:9-269:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:262:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:269:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:261:13-87
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:268:13-87
 activity#com.ambitious.fghvendor.Activities.RMPUpateActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:263:9-265:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:270:9-272:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:265:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:272:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:264:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:271:13-79
 activity#com.ambitious.fghvendor.Activities.RMPSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:266:9-268:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:273:9-275:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:268:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:275:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:267:13-80
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:274:13-80
 activity#com.ambitious.fghvendor.Activities.RMPLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:269:9-271:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:276:9-278:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:271:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:278:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:270:13-79
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:277:13-79
 activity#com.ambitious.fghvendor.Activities.RMPDoctorListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:272:9-274:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:279:9-281:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:274:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:281:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:273:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:280:13-84
 activity#com.ambitious.fghvendor.Activities.PatientDetailActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:275:9-277:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:282:9-284:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:277:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:284:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:276:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:283:13-84
 activity#com.ambitious.fghvendor.Activities.AddPatientActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:278:9-280:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:285:9-287:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:280:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:287:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:279:13-81
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:286:13-81
 activity#com.ambitious.fghvendor.Activities.PatientListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:281:9-283:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:288:9-290:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:283:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:290:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:282:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:289:13-82
 activity#com.ambitious.fghvendor.Activities.MedicalHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:284:9-286:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:291:9-293:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:286:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:293:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:285:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:292:13-82
 activity#com.ambitious.fghvendor.Activities.BloodBankHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:287:9-289:39
-	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:289:13-36
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:288:13-84
-activity#com.ambitious.fghvendor.Activities.BloodDonorHomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:290:9-293:58
-	android:windowSoftInputMode
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:293:13-55
-	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:292:13-36
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:291:13-85
-activity#com.ambitious.fghvendor.Activities.AmbulanceHomeActivity
 ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:294:9-296:39
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:296:13-36
 	android:name
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:295:13-84
-activity#com.ambitious.fghvendor.Activities.UserProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:297:9-299:39
+activity#com.ambitious.fghvendor.Activities.BloodDonorHomeActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:297:9-300:58
+	android:windowSoftInputMode
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:300:13-55
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:299:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:298:13-82
-activity#com.ambitious.fghvendor.Activities.MedicalShopSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:300:9-303:58
-	android:windowSoftInputMode
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:303:13-55
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:298:13-85
+activity#com.ambitious.fghvendor.Activities.AmbulanceHomeActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:301:9-303:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:302:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:303:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:301:13-88
-activity#com.ambitious.fghvendor.Activities.MedicalShopLoginActivity
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:302:13-84
+activity#com.ambitious.fghvendor.Activities.UserProfileActivity
 ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:304:9-306:39
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:306:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:305:13-87
-activity#com.ambitious.fghvendor.Activities.BloodBankSignupActivity
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:305:13-82
+activity#com.ambitious.fghvendor.Activities.MedicalShopSignupActivity
 ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:307:9-310:58
 	android:windowSoftInputMode
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:310:13-55
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:309:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:308:13-86
-activity#com.ambitious.fghvendor.Activities.DonorSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:311:9-314:58
-	android:windowSoftInputMode
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:314:13-55
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:308:13-88
+activity#com.ambitious.fghvendor.Activities.MedicalShopLoginActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:311:9-313:39
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:313:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:312:13-82
-activity#com.ambitious.fghvendor.Activities.BloodBankLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:315:9-317:39
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:312:13-87
+activity#com.ambitious.fghvendor.Activities.BloodBankSignupActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:314:9-317:58
+	android:windowSoftInputMode
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:317:13-55
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:317:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:316:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:316:13-85
-activity#com.ambitious.fghvendor.Activities.DonorLoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:318:9-320:39
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:315:13-86
+activity#com.ambitious.fghvendor.Activities.DonorSignupActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:318:9-321:58
+	android:windowSoftInputMode
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:321:13-55
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:320:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:319:13-81
-activity#com.ambitious.fghvendor.Activities.AmbulanceSignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:321:9-324:58
-	android:windowSoftInputMode
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:324:13-55
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:319:13-82
+activity#com.ambitious.fghvendor.Activities.BloodBankLoginActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:322:9-324:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:323:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:324:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:322:13-86
-activity#com.ambitious.fghvendor.Activities.AmbulanceLoginActivity
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:323:13-85
+activity#com.ambitious.fghvendor.Activities.DonorLoginActivity
 ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:325:9-327:39
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:327:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:326:13-85
-activity#com.ambitious.fghvendor.Activities.DoctorListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:328:9-330:39
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:326:13-81
+activity#com.ambitious.fghvendor.Activities.AmbulanceSignupActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:328:9-331:58
+	android:windowSoftInputMode
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:331:13-55
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:330:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:329:13-81
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:329:13-86
+activity#com.ambitious.fghvendor.Activities.AmbulanceLoginActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:332:9-334:39
+	android:exported
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:334:13-36
+	android:name
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:333:13-85
+activity#com.ambitious.fghvendor.Activities.DoctorListActivity
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:335:9-337:39
+	android:exported
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:337:13-36
+	android:name
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:336:13-81
 activity#com.ambitious.fghvendor.Activities.AppointmentCategoryListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:331:9-333:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:338:9-340:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:333:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:340:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:332:13-94
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:339:13-94
 activity#com.ambitious.fghvendor.Activities.MedicalShopListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:334:9-336:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:341:9-343:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:336:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:343:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:335:13-86
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:342:13-86
 activity#com.ambitious.fghvendor.Activities.BloodDonorProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:337:9-339:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:344:9-346:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:339:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:346:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:338:13-88
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:345:13-88
 activity#com.ambitious.fghvendor.Activities.BloodListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:340:9-342:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:347:9-349:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:342:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:349:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:341:13-80
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:348:13-80
 activity#com.ambitious.fghvendor.Activities.AmbulanceDriverProfileActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:343:9-345:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:350:9-352:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:345:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:352:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:344:13-93
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:351:13-93
 activity#com.ambitious.fghvendor.Activities.AmbulanceDriverListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:346:9-348:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:353:9-355:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:348:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:355:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:347:13-90
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:354:13-90
 activity#com.ambitious.fghvendor.Activities.AmbulanceListActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:349:9-351:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:356:9-358:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:351:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:358:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:350:13-84
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:357:13-84
 activity#com.ambitious.fghvendor.Activities.HomeActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:352:9-354:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:359:9-361:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:354:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:361:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:353:13-75
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:360:13-75
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:355:9-359:57
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:362:9-366:57
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
 MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
 	android:clearTaskOnLaunch
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
 	android:screenOrientation
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:357:13-49
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:364:13-49
 		REJECTED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
 	android:stateNotNeeded
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:358:13-42
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:365:13-42
 	android:windowSoftInputMode
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
 	android:theme
 		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] D:\Downloads\gradle-6.5-bin\caches\transforms-2\files-2.1\8b49b6aad44c8e02221d5749f96a8a9f\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
 	tools:replace
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:359:13-54
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:366:13-54
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:356:13-74
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:363:13-74
 activity#com.ambitious.fghvendor.Activities.SignupActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:360:9-362:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:367:9-369:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:362:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:369:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:361:13-77
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:368:13-77
 activity#com.ambitious.fghvendor.Activities.LoginActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:363:9-365:39
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:9-372:39
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:365:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:364:13-76
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:371:13-76
 activity#com.ambitious.fghvendor.Activities.SplashActivity
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:366:9-374:20
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:373:9-381:20
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:368:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:375:13-36
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:367:13-77
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:374:13-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:369:13-373:29
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:376:13-380:29
 action#android.intent.action.MAIN
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:17-69
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:377:17-69
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:370:25-66
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:377:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:17-77
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:379:17-77
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:372:27-74
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:379:27-74
 meta-data#com.razorpay.ApiKey
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:376:9-378:55
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:383:9-385:55
 	android:value
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:378:13-52
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:385:13-52
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:377:13-47
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:13-47
 service#com.ambitious.fghvendor.Services.MyFirebaseMessagingService
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:380:9-386:19
-	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:382:13-36
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:381:13-87
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:383:13-385:29
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:17-78
-	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:384:25-75
-service#com.ambitious.fghvendor.Services.MyFirebaseInstanceIDService
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:387:9-394:19
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:387:9-393:19
 	android:exported
 		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:389:13-36
-	tools:ignore
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:390:13-42
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:388:13-88
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:391:13-393:29
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:392:17-80
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:388:13-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:390:13-392:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:391:17-78
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:392:25-77
-receiver#com.ambitious.fghvendor.Services.BroadcastNotiReceiver
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:396:9-405:20
-	android:enabled
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:398:13-35
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:391:25-75
+service#com.ambitious.fghvendor.Services.MyFirebaseInstanceIDService
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:394:9-401:19
 	android:exported
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:399:13-36
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:396:13-36
+	tools:ignore
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:397:13-42
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:397:13-82
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:395:13-88
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:398:13-400:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:399:17-80
+	android:name
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:399:25-77
+receiver#com.ambitious.fghvendor.Services.BroadcastNotiReceiver
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:403:9-412:20
+	android:enabled
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:405:13-35
+	android:exported
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:406:13-36
+	android:name
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:404:13-82
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:400:13-404:29
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:407:13-411:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:401:17-79
+ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:408:17-79
 	android:name
-		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:401:25-76
+		ADDED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml:408:25-76
 uses-sdk
 INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android projects\FGHVendor\app\src\main\AndroidManifest.xml

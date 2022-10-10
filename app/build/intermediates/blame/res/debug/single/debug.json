@@ -4,12 +4,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\item_noti.xml"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_settings.xml.flat",
@@ -88,12 +88,12 @@
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_prices_signup.xml.flat",
-        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
-    },
-    {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
         "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_market_prices_signup.xml.flat",
+        "source": "E:\\Android projects\\FGHVendor\\app\\src\\main\\res\\layout\\activity_market_prices_signup.xml"
     },
     {
         "merged": "E:\\Android projects\\FGHVendor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ambulance.xml.flat",
