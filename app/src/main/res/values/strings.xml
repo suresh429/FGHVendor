@@ -123,4 +123,7 @@
     <string name="enter_latitude">Enter Latitude</string>
     <string name="enter_longitude">Enter Longitude</string>
     <string name="my_qr_code">My QR Code</string>
+    <string name="total_transactions">Total Transactions</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
 </resources>

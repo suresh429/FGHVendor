@@ -1064,5 +1064,9 @@ public interface LoadInterface {
     //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Vendor txn %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     @GET("get_vendor_txn")
-    Call<ResponseBody> vendorTxn(@Query("user_id") String user_id);
+    Call<ResponseBody> vendorTxn(
+            @Query("user_id") String user_id,
+            @Query("from_date") String from_date,
+            @Query("to_date") String to_date
+    );
 }

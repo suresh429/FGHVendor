@@ -2262,12 +2262,14 @@ id enterAlways
 id enterAlwaysCollapsed
 id etAccountNumber
 id etFirstName
+id etFromDate
 id etIfscCode
 id etLastName
 id etPaymentMobile
 id etProduct
 id etProductPrice
 id etProductWeight
+id etToDate
 id etUpiId
 id et_ABnegprice
 id et_ABposprice
@@ -2757,6 +2759,8 @@ id txtRemark
 id txtShare
 id txtShopName
 id txtTitle
+id txtTotal
+id txtTotalTransactions
 id unchecked
 id uniform
 id unlabeled
@@ -3161,6 +3165,7 @@ string firebase_database_url
 string fitness
 string fname
 string forgot
+string from_date
 string gcm_defaultSenderId
 string getdirection
 string getstarted
@@ -3241,6 +3246,8 @@ string status_bar_notification_info_overflow
 string tag_content
 string tag_menu
 string telemedicine
+string to_date
+string total_transactions
 string update
 string username
 string vaccineregistration
